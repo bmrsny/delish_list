@@ -11,7 +11,7 @@ require 'support/database_cleaner'
 require 'capybara/rspec'  
 require 'selenium-webdriver'  
 require 'capybara/poltergeist'
-
+Capybara.javascript_driver = :poltergeist
 # Add additional requires below this line. Rails is not loaded until this point!
 
 # Requires supporting ruby files with custom matchers and macros, etc, in
@@ -42,7 +42,6 @@ RSpec.configure do |config|
   # instead of true.
   config.use_transactional_fixtures = false
 
-	Capybara.default_driver = :selenium
 
   # RSpec Rails can automatically mix in different behaviours to your tests
   # based on their file location, for example enabling you to call `get` and
