@@ -29,4 +29,11 @@ feature "landing page" do
 		expect(page).to have_link("Dinner")
 		expect(page).to have_link("Drinks")
 	end
+
+	scenario "user can see a footer with links" do
+		visit "/"
+		expect(page).to have_link("Facebook")
+		expect(page).to have_link("Github")
+		expect(page).to have_link("Twitter")
+	end
 end

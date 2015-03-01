@@ -38,7 +38,11 @@ h1 {
 }
 
 .info-box {
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 4px 4px 15px #000;
+	background-color: rgba(172,136,143, .6);
+	padding: 3%;
+	color: #fff;
+	font-size: 16px;
 }
 
 .modal-box {
@@ -51,8 +55,93 @@ h1 {
 	padding: 5%;
 }
 
-body {
-	background-image: url("tons_of_food.jpg");
+.parallax-home {
+	height: auto;
+	background-position: center;
+	background-repeat: repeat-x;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image:url('tons_of_food.jpg');
 }
 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 768px) {
+	.parallax-home {
+		background-image:url('tons_of_food.jpg');
+		height: auto;
+		background-position: center;
+		background-size: cover;
+	}
+}
 
+.inner-parallax-content {
+	padding: 10% 0;
+	margin: 0 auto;
+}
+
+footer {
+	background-color: #645a4c;
+	height: 20px;
+	padding: 2% 0 5% 0 ;
+}
+
+footer a {
+	color: #fff;
+	text-size: 16px;
+	padding: 2%;
+}
+
+.footer-links {
+	text-align:center;
+}
+
+.navbar {
+ margin-bottom: 0; 
+}
+
+#flash_alert {
+	background-color: #F45656;
+	padding: 2%;
+	height: 25px;
+	margin: 5px 0 0 0;
+	color: #fff;
+}
+
+#flash_success {
+	background-color: #64C58D;
+	padding: 2%;
+	height: 25px;
+	margin: 5px 0 0 0;
+	color: #fff;
+}
+
+.btn {
+	margin: 5px 5px 5px 5px;
+}
+
+.search-bar {
+	margin: 12% 0;
+}
+
+.search-bar .search-box {
+	background-color: rgba(255,255,255, .6);
+	box-shadow: 2px 2px 10px #000;
+	color: #000;
+	border: none;
+}
+
+.search-btn {
+	border:none;
+	box-shadow: 2px 2px 10px #000;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 680px) {
+	.search-button-box {
+		text-align: center;
+		width: 50%;
+		margin: 2%;
+	}
+}
