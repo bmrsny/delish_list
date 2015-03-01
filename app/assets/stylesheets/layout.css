@@ -1,4 +1,58 @@
+
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: 'Oswald', Arial, sans-serif;
+	color: #333;
 }
+
+#logo {
+	text-align: center;
+}
+
+#logo img {
+	width: 200px;
+	margin: 0 0 0 44px;
+}
+
+.signin {
+	margin: 0 10px 0 10px ;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #645a4c;
+	font-size: 18px;
+}
+
+.signin {
+	font-size: 18px;
+} 
+
+h1 {
+	text-align: center;
+
+}
+
+.front-header {
+	margin: 0 0 44px;
+	padding: 0 0 14px 0;
+	color: #fff;
+}
+
+.info-box {
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.modal-box {
+	border: 2px solid #000;
+	background-color: #fff;
+	box-shadow: 3px 3px 30px #333, -3px -3px 30px #333;
+}
+
+.modal-inner-box {
+	padding: 5%;
+}
+
+body {
+	background-image: url("tons_of_food.jpg");
+}
+
 

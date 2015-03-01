@@ -8,6 +8,6 @@ feature "landing page" do
 
 	scenario "user can see login button " do
 		visit "/"
-		expect(page).to have_button("Login")
+		expect(page).to have_button("Sign In")
 	end
 end
