@@ -10,4 +10,23 @@ feature "landing page" do
 		visit "/"
 		expect(page).to have_button("Sign In")
 	end
+
+	scenario "user can see a link to about page" do
+		visit "/"
+		expect(page).to have_link("About")
+	end
+
+	scenario "user can see a dropdown of categories" do
+		visit "/"
+		expect(page).to have_content("Categories")
+	end
+
+	scenario "user can see a link to all categories" do
+		visit "/"
+		expect(page).to have_link("Breakfast")
+		expect(page).to have_link("Lunch")
+		expect(page).to have_link("Appetizers")
+		expect(page).to have_link("Dinner")
+		expect(page).to have_link("Drinks")
+	end
 end
