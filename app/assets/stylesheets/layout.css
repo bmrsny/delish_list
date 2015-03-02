@@ -159,6 +159,13 @@ and (max-device-width : 680px) {
 	background-image: url('burries.jpg');
 	background-size: cover;
 }
+
 .about {
 	color: #fff;
+}
+	
+.footer-links p {
+	display: inline;
+	color: #fff;
+	padding: 1%;
 }
