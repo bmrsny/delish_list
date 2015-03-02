@@ -145,3 +145,9 @@ and (max-device-width : 680px) {
 		margin: 2%;
 	}
 }
+
+.footer-links p {
+	display: inline;
+	color: #fff;
+	padding: 1%;
+}
