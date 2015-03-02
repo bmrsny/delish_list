@@ -158,8 +158,6 @@ and (max-device-width : 680px) {
 .about-container {
 	background-image: url('burries.jpg');
 	background-size: cover;
-	padding: 2%;
-	margin: 10px 40px;
 }
 .about {
 	color: #fff;
