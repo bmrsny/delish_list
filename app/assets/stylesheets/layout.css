@@ -189,4 +189,7 @@ and (max-device-width : 680px) {
 .recipes-box-image {
 	background-color: #fff;
 	height:230px;
+	background-image: url("kiwi.jpg");
+	background-size: 100%
 }
+
