@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 h1 {
 	text-align: center;
+	padding: 0 0 1% 0;
 
 }
 
@@ -168,4 +169,24 @@ and (max-device-width : 680px) {
 	display: inline;
 	color: #fff;
 	padding: 1%;
+}
+
+
+.recipes-page {
+	background-color:#E7E0D2;
+	padding:0 0 2%;
+}
+
+.recipes-box-title {
+	background-color:#3E3A37;
+	height: 120px;
+	color:#fff;
+	font-size: 18px;
+	text-align: center;
+	padding: 2%;
+}
+
+.recipes-box-image {
+	background-color: #fff;
+	height:230px;
 }
