@@ -62,14 +62,14 @@ h1 {
 	background-repeat: repeat-x;
 	background-size: cover;
 	background-attachment: fixed;
-	background-image:url('tons_of_food.jpg');
+	background-image:url('<%= asset_path("tons_of_food.jpg") %> ');
 }
 
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 768px) {
 	.parallax-home {
-		background-image:url('tons_of_food.jpg');
+		background-image:url('<%= asset_path("tons_of_food.jpg") %> ');
 		height: auto;
 		background-position: center;
 		background-size: cover;
@@ -157,7 +157,7 @@ and (max-device-width : 680px) {
 }
 
 .about-container {
-	background-image: url('burries.jpg');
+	background-image:url('<%= asset_path("burries.jpg") %> ');
 	background-size: cover;
 }
 
