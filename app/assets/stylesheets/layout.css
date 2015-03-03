@@ -171,6 +171,13 @@ and (max-device-width : 680px) {
 	padding: 1%;
 }
 
+.footer-p {
+	display: inline;
+	color: #fff;
+	padding: 1%;
+
+}
+
 
 .recipes-page {
 	background-color:#E7E0D2;
