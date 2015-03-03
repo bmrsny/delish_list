@@ -1,15 +1,7 @@
 <nav class="navbar navbar-default">
 	<div class="container-fluid">
-		<ul class="nav navbar-nav navbar-right">
-			<button type="button" class="btn btn-default signin" data-toggle="modal" data-target=".login-modal">Sign In</button>
-       <div class="modal fade login-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-      	 <div class="modal-dialog modal-md">
-        	 <div class="login-modal-content">
-						<%= render "/partials/sign_in_form" %>
-           </div>
-         </div>
-       </div>
-    </ul>
+		
+		<%= link_to "Sign in with twitter","/auth/twitter", class: "btn btn-default"  %>
 		<div id="logo">
 				<%= image_tag("delish-list-logo.png")  %>		
 			</div>
