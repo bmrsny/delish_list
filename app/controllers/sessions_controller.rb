@@ -12,6 +12,8 @@ class SessionsController < ApplicationController
 	private 
 
 	def auth
+		require "pry" 
+		 binding.pry
 		request.env['omniauth.auth']
 	end
 end
