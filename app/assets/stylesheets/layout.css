@@ -104,7 +104,7 @@ footer a {
 #flash_alert {
 	background-color: #F45656;
 	padding: 2%;
-	height: 25px;
+	height: 15px;
 	margin: 5px 0 0 0;
 	color: #fff;
 }
@@ -112,7 +112,7 @@ footer a {
 #flash_success {
 	background-color: #64C58D;
 	padding: 2%;
-	height: 25px;
+	height: 10px;
 	margin: 5px 0 0 0;
 	color: #fff;
 }
