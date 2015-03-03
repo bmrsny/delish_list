@@ -9,11 +9,15 @@ class SessionsController < ApplicationController
      end
 	 end
 
+	def destroy
+		session.clear
+		flash[:success] = "Successful Logout"
+		redirect_to root_path
+	end
+
 	private 
 
 	def auth
-		require "pry" 
-		 binding.pry
 		request.env['omniauth.auth']
 	end
 end
