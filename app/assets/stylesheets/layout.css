@@ -193,3 +193,7 @@ and (max-device-width : 680px) {
 	background-size: 100%
 }
 
+.twitter-btn {
+	margin: 15px 0 0 0;	 
+}
+
