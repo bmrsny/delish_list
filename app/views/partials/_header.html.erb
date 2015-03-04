@@ -3,10 +3,11 @@
 		<% if current_user %>
 			<%= link_to "Log out", logout_path, class: "btn btn-default" %>
 		<% else %>
-			<div class="twitter-box pull-right"><%= link_to image_tag("sign-in-with-twitter-gray.png"),"/auth/twitter", class: "twitter-btn"  %></div>
+			<div class="twitter-box pull-right"><%= link_to image_tag("sign-in-with-twitter-gray.png"),"/auth/twitter", class: "twitter-btn"  %>
+			</div>
 		<% end %>
 		<div id="logo">
-			</div>
+	</div>
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">

@@ -17,16 +17,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	margin: 0 10px 0 10px ;
 }
 
-.navbar-default .navbar-nav>li>a {
-	color: #645a4c;
+.navbar-nav li a {
+	color: #fff !important;
 	font-size: 18px;
 }
 
 .navbar-default {
 	border: 0!important;
 	border-radius: 0 !important;
-	background-color: #E7E0D2;
+	background-color:#3E3A37!important;
 }
+
 
 .signin {
 	font-size: 18px;
@@ -150,9 +151,6 @@ and (max-device-width : 680px) {
 		width: 50%;
 		margin: 2%;
 	}
-	.navbar-toggle .collapsed{
-		text-align:left;
-	}
 }
 
 .about-box {
@@ -206,9 +204,6 @@ and (max-device-width : 680px) {
 	height:230px;
 	background-image: url("kiwi.jpg");
 	background-size: 100%
-}
-
-.twitter-btn {
 }
 
 .twitter-box {
