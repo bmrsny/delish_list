@@ -3,7 +3,8 @@
 		<% if current_user %>
 			<%= link_to "Log out", logout_path, class: "btn btn-default pull-right" %>
 		<% else %>
-			<div class="twitter-box pull-right"><%= link_to image_tag("sign-in-with-twitter-gray.png"),"/auth/twitter", class: "twitter-btn"  %>
+			<div class="twitter-box pull-right">
+				<%= link_to image_tag("sign-in-with-twitter-gray.png"),"/auth/twitter" %>
 			</div>
 		<% end %>
 		<div id="logo">

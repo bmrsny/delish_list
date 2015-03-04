@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	border: 0;
 	border-radius: 0;
 	background-color:#3E3A37 ;
+	margin: 0;
 }
 
 
@@ -76,7 +77,7 @@ h1 {
 and (min-device-width : 320px) 
 and (max-device-width : 768px) {
 	.parallax-home {
-		background-image:url('<%= asset_path("tons_of_food.jpg") %> ');
+		background-image:url("tons_of_food.jpg");
 		height: auto;
 		background-position: center;
 		background-size: cover;
@@ -90,7 +91,7 @@ and (max-device-width : 768px) {
 
 footer {
 	background-color: #645a4c;
-	height: 20px;
+	height: auto;
 	padding: 2% 0 5% 0 ;
 }
 
@@ -102,23 +103,26 @@ footer a {
 
 .footer-links {
 	text-align:center;
+	padding: 5px;
+}
+
+.footer-p p {
+	color: #fff;
+	display: inline;
 }
 
 
 #flash_alert {
 	background-color: #F45656;
-	padding: 2%;
-	height: 15px;
-	margin: 5px 0 0 0;
 	color: #fff;
+	text-align: center;
+
 }
 
 #flash_success {
 	background-color: #64C58D;
-	padding: 2%;
-	height: 10px;
-	margin: 5px 0 0 0;
 	color: #fff;
+	text-align: center;
 }
 
 .btn {
@@ -163,7 +167,7 @@ and (max-device-width : 680px) {
 }
 
 .about-container {
-	background-image:url('<%= asset_path("burries.jpg") %> ');
+	background-image:url("burries.jpg");
 	background-size: cover;
 }
 
@@ -171,18 +175,6 @@ and (max-device-width : 680px) {
 	color: #fff;
 }
 	
-.footer-links p {
-	display: inline;
-	color: #fff;
-	padding: 1%;
-}
-
-.footer-p {
-	display: inline;
-	color: #fff;
-	padding: 1%;
-}
-
 
 .recipes-page {
 	background-color:#E7E0D2;
@@ -209,3 +201,4 @@ and (max-device-width : 680px) {
 	margin: 10px 20px;
 	box-align: left;
 }
+
