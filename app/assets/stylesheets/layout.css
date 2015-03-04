@@ -209,3 +209,14 @@ and (max-device-width : 680px) {
 .ingredient-btn {
 	padding: 1%;
 }
+
+.seperator-box{
+	min-height: 400px;
+	background-color: #E7E0D2;
+}
+
+.seperator-text {
+	color:#000;
+	text-align: center;
+	padding: 2%;
+}
