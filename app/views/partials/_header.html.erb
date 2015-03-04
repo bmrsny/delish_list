@@ -3,7 +3,7 @@
 		<% if current_user %>
 			<%= link_to "Log out", logout_path, class: "btn btn-default" %>
 		<% else %>
-			<%= link_to image_tag("sign-in-with-twitter-gray.png"),"/auth/twitter", class: "twitter-btn"  %> 
+			<div class="twitter-box"><%= link_to image_tag("sign-in-with-twitter-gray.png"),"/auth/twitter", class: "twitter-btn"  %></div>
 		<% end %>
 		<div id="logo">
 				<%= image_tag("delish-list-logo.png")  %>		
