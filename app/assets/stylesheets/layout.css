@@ -23,9 +23,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .navbar-default {
-	border: 0!important;
-	border-radius: 0 !important;
-	background-color:#3E3A37!important;
+	border: 0;
+	border-radius: 0;
+	background-color:#3E3A37 ;
 }
 
 
@@ -69,7 +69,7 @@ h1 {
 	background-repeat: repeat-x;
 	background-size: cover;
 	background-attachment: fixed;
-	background-image:url('<%= asset_path("tons_of_food.jpg") %> ');
+	background-image:url("tons_of_food.jpg");
 }
 
 @media only screen 
@@ -181,7 +181,6 @@ and (max-device-width : 680px) {
 	display: inline;
 	color: #fff;
 	padding: 1%;
-
 }
 
 
