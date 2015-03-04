@@ -201,9 +201,8 @@ and (max-device-width : 680px) {
 }
 
 .twitter-btn {
-	margin: 15px 0 0 0;	
 }
 
 .twitter-box {
-	margin-top: 1%;
+	margin: 10px 20px;
 }
