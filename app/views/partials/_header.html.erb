@@ -1,6 +1,7 @@
 <nav class="navbar navbar-default">
 	<div class="container-fluid">
 		<% if current_user %>
+			<h4>Welcome! <%= current_user.name %></h4>
 			<%= link_to "Log out", logout_path, class: "btn btn-default pull-right" %>
 		<% else %>
 			<div class="twitter-box pull-right">
