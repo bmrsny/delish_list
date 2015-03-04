@@ -3,8 +3,11 @@ class SessionsController < ApplicationController
   	 user = User.find_or_create_from_auth(auth)
      if user
        session[:user_id] = user.id
+			 user.save
+			 flash[:success] = "Successful Login."
        redirect_to root_path
      else
+			 flash[:error] = "You could not be logged in."
        redirect_to rooth_path
      end
 	 end
