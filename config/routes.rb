@@ -3,6 +3,5 @@ Rails.application.routes.draw do
 	get '/auth/:provider/callback', to: 'sessions#create'
 	get 'logout', to: "sessions#destroy", as: :logout
 	get 'about', to: 'static_pages#about', as: :about
-	get 'recipe', to: 'static_pages#recipe', as: :recipe
-	resources :recipes, only:[:index]
+	resources :recipes, only:[:index, :show]
 end

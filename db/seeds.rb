@@ -36,7 +36,7 @@ class Seed
 
  def build_ingredient
 	name = ["Flour", "Shredded Chiken", "Beef", "Romain Lettuce", "Salt", "Water", "Sugar", "Egg(s)", "Corn Meal", "Pork", "Green Chili", "Rice"]
-	quantity = [0.5, 1, 2, 3, 5, 0.2, 4 ]
+	quantity = ["0.5", "1", "2", "3", "5", "0.2", "4" ]
 	unit = ["oz", "cn", "tbs"]
 	
 
@@ -47,7 +47,7 @@ class Seed
 
  def build_recipe_ingredients
 		30.times do 
-			RecipeIngredients.create(recipe_id: rand(1..29), ingredient_id: rand(1..29))
+			RecipeIngredient.create(recipe_id: rand(1..29), ingredient_id: rand(1..29))
 		end
  end
 end
