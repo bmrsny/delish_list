@@ -25,7 +25,8 @@
 			</tbody>
 			<% end %>
 		</table>
-		<%= link_to "Add Ingredients to Shopping List", shopping_list_index_path(url: "/recipes/#{@recipe.id}"), class: "btn btn-default search-btn"  %>
+		<%= render "partials/recipe_id_form" %>
+		<%= link_to "Add Ingredients to Shopping List", shopping_list_index_path, class: "btn btn-default search-btn"  %>
 	</div>
 </div>
 <div class="seperator-box-2">
