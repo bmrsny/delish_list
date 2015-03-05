@@ -10,11 +10,13 @@
 				</tr>
 			</thead>
 			<tbody>
+				<% @recipe.ingredients.each do |ingredient| %>
 				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
+					<td><%= ingredient.name %></td>
+					<td><%= ingredient.quantity %></td>
+					<td><%= ingredient.unit %></td>
 				</tr>
+			<% end  %>
 			</tbody>
 		</table>
 		<%= button_to "Send Recipe as a text", "#", class: "btn btn-default search-btn" %>

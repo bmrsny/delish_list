@@ -1,0 +1,5 @@
+<%= form_for (@recipe), url: {controller: "shopping_list_controller", action: "index"} do |f| %>
+	<%= f.hidden_field :recipe_id, :value => @recipe.id %>
+	<%= f.submit "Add Ingredients to Shopping List", class: "btn btn-default search-btn" %>
+<% end %>
+

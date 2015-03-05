@@ -2,6 +2,7 @@ class ShoppingListController < ApplicationController
 	before_filter :authorize
 	
 	def index
+		 @recipe = Recipe.find(params[:id])
 	end
 	private
 
