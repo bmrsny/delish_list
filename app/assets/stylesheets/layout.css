@@ -189,16 +189,21 @@ and (max-device-width : 680px) {
 	height: 120px;
 	color:#fff;
 	font-size: 18px;
-	text-align: center;
 	padding: 2%;
 	margin-bottom: 10px;
 }
+
+.recipes-box-title ul li {
+	list-style-type: none;
+	text-align: center;
+}
+
 
 .recipes-box-image {
 	background-color: #fff;
 	height:230px;
 	background-image: url("kiwi.jpg");
-	background-size: 100%
+	background-size: 100%;
 }
 
 .twitter-box {
@@ -208,10 +213,10 @@ and (max-device-width : 680px) {
 
 .ingredient-btn {
 	padding: 1%;
+	text-align: center;
 }
 
 .seperator-box{
-	min-height: 400px;
 	background-color: #E7E0D2;
 }
 
@@ -219,4 +224,41 @@ and (max-device-width : 680px) {
 	color:#000;
 	text-align: center;
 	padding: 2%;
+	margin-top: 0px;
+  margin-bottom: 0px;
 }
+
+.recipe-info {
+	height: 220px;
+	padding: 2%;
+	margin-bottom: 10px;
+	text-align: center;
+
+}
+
+.recipe-show-page {
+	min-height: 500px;
+}
+
+.ingredients {
+	text-align: center;
+	color: #000;
+}
+
+.recipe-heading {
+	color: #000;
+}
+
+.seperator-box-2 {
+	background-color:#105E67;
+	padding:none;
+}
+
+.seperator-text-2 {
+	color:#fff;
+	text-align: center;
+	padding: 2%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
