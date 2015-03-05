@@ -18,14 +18,14 @@ class Seed
 	category = ["Brekfast", "Lunch", "Dinner", "Dessert"]
 	subcategory = ["Sweet Treat", "Health Snack", "Spicy", "Low Carbs"]
 	url = ["http://foodies.com", "http://foodjunkie.com", "http://foodkitchenspot.org", "http://healthnut.com"]
-	intructions = [
+	instructions = [
 									"Simmer for 45 minutes, add ingredient 2. Simmer for 45 for minutes til mushy. Serve hot!",
 									"Mix in a mixing bowl, add flour and water. Cook for 45 minutes till golden brown. Let cool for 10 minutes",
 									"Stir ingredients in a large mixing bowl. Pour into skillet on medium heat. Cook for 20 minutes.",
 									"Put in the oven for 80 minutes on high. Let it pop to perfection. Serve scolding hott!"
 								]
 	30.times do 
-		Recipe.create(name: name.sample,
+		Recipe.create(title: name.sample,
 									description: description.sample, 
 									category: category.sample, 
 									subcategory: subcategory.sample, 
@@ -47,7 +47,7 @@ class Seed
 
  def build_recipe_ingredients
 		30.times do 
-			RecipeIngredient.create(recipe_id: rand(1..29), ingredient_id: rand(1..29))
+			RecipeIngredients.create(recipe_id: rand(1..29), ingredient_id: rand(1..29))
 		end
  end
 end
