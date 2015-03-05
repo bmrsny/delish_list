@@ -16,4 +16,10 @@
 //= require twitter/bootstrap
 //= require_tree .
 //
+//
+$(document).ready(function(){
+  $(".not_logged_in").click(function(){
+    alert("You must be logged in to to add ingredients to your shopping list!")
+  });
+});
 

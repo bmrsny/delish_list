@@ -5,7 +5,11 @@ class SessionsController < ApplicationController
        session[:user_id] = user.id
 			 user.save
 			 flash[:success] = "Successful Login."
-       redirect_to root_path
+			 if session[:last_page]
+         redirect_to session[:last_page]
+			 else
+				 redirect_to root_path
+			 end
      else
 			 flash[:error] = "You could not be logged in."
        redirect_to rooth_path

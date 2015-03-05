@@ -1,6 +1,7 @@
 <div class="recipes-page">
 	<div class="container">
 		<h1>Recipes</h1>
+		<div class="row">
 		<% @recipes.each do |recipe| %>
 			<div class="recipe-box col-sm-3">
 				<div class="recipes-box-image">
@@ -12,7 +13,8 @@
 					<%= link_to "View Ingredients", recipe_path(recipe), class:"btn btn-default ingredient-btn" %>
 				</div>
 			</div>
-	<% end %>
+		<% end %>
+		</div>
 	</div>
 </div>
 
