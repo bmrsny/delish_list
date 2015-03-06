@@ -262,3 +262,7 @@ and (max-device-width : 680px) {
   margin-bottom: 0px;
 }
 
+.front-info-box{
+	min-height: 200px;
+	margin:2%;
+}
