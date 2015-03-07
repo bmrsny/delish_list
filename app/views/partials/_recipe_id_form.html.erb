@@ -1,4 +1,4 @@
-<%= form_for (@recipe), url: shopping_list_index_path, method do |f| %>
+<%= form_for (@recipe), url: shopping_list_index_path do |f| %>
 	<%= f.hidden_field :recipe_id, :value => @recipe.id %>
 	<%= f.submit "Add Ingredients to Shopping List", class: "btn btn-default search-btn" %>
 <% end %>
