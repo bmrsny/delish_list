@@ -10,7 +10,6 @@ class Seed
 	build_recipe
 	build_ingredient
 	build_recipe_ingredients
-	build_user
  end
 
  def build_recipe
@@ -52,10 +51,6 @@ class Seed
 		end
  end
  
- def build_user
-	User.create(name: "Brandon Mrsny", provider: "twitter", nickname: "bmrz", uid: "123545")
- end
-
 end
 
 Seed.new

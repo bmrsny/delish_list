@@ -33,14 +33,18 @@
 		<#%= render "partials/recipe_id_form" %>
 	<#%= link_to "Add Ingredients to Shopping List", shopping_list_index_path(:id => "#{@recipe.id}"), class: "btn btn-default search-btn"  %>
 
-	<button type="button" class="btn btn-default" data-toggle="modal" data-target=".login-modal">Add Ingredients to Shopping List</button>
-    <div class="modal fade login-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-   	  <div class="modal-dialog modal-md">
-        <div class="shopping-list-modal">
-          <%= render "/partials/shopping_list" %>
-        </div>
-      </div>
-    </div>
+	<% if current_user.nil? %>
+		<%= link_to "Add Ingredients to Shopping List", "#", class: "not_logged_in btn btn-default search-btn" %>
+	<% else %>
+		<button type="button" class="btn btn-default search-btn" data-toggle="modal" data-target=".login-modal">Add Ingredients to Shopping List</button>
+    	<div class="modal fade login-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+   	  	<div class="modal-dialog modal-md">
+        	<div class="shopping-list-modal">
+          	<%= render "/partials/shopping_list" %>
+       	 </div>
+     	 </div>
+			</div>
+		<% end %>
 
 	</div>
 </div>
