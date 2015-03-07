@@ -12,6 +12,8 @@ require 'support/database_cleaner'
 require 'capybara/rspec'  
 require 'selenium-webdriver'  
 require 'capybara/poltergeist'
+
+OmniAuth.config.test_mode = true
 Capybara.javascript_driver = :poltergeist
 # Add additional requires below this line. Rails is not loaded until this point!
 

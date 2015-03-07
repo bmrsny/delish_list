@@ -4,7 +4,7 @@
 			<h1 class="front-header">Delicious Recipies at Your Fingertips</h1>
         <div class="search-bar-box">
          	<%= form_tag("/", :method => "get", id: "search-form") do %>
-          <%= text_field_tag :search, params[:search], placeholder: "Search Ingredients", class: "form-control search-box" %>
+          <%= text_field_tag :search, params[:search], placeholder: "Search Recipes", class: "form-control search-box" %>
 					<div class="search-button-box">
          		<%= submit_tag "Search", :name => nil, class: "btn btn-default search-btn" %>
 					</div>

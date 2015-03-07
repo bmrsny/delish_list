@@ -17,6 +17,6 @@ feature "recipe show page" do
 		click_link "View Ingredients"
 		expect(current_path).to eq("/recipes/2") 
 		expect(page).to have_content(recipe.title)
-		expect(page).to have_button("Add to Shopping List")
+		expect(page).to have_link("Add Ingredients to Shopping List")
 	end
 end
