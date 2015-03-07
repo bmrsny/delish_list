@@ -4,5 +4,5 @@ Rails.application.routes.draw do
 	get 'logout', to: "sessions#destroy", as: :logout
 	get 'about', to: 'static_pages#about', as: :about
 	resources :recipes, only:[:index, :show]
-	resources :shopping_list, only:[:index]
+	resources :shopping_list
 end

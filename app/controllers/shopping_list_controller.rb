@@ -4,6 +4,10 @@ class ShoppingListController < ApplicationController
 	def index
 		 @recipe = Recipe.find(params[:id])
 	end
+
+	def show
+		@shopping_list = ShoppingList.find(params[:id])
+	end
 	private
 
 	def authorize

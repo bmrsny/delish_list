@@ -1,0 +1,26 @@
+<div class="recipes-page">
+	<div class="container recipe-show-page">
+		<h1 class="recipe-heading"><%= current_user.name %>'s Shopping List</h1>
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Quantity</th>
+					<th>Unit</th>
+				</tr>
+			</thead>
+			<tbody>
+				<#% @recipe.ingredients.each do |ingredient| %>
+				<tr>
+					<td><#%= ingredient.name %></td>
+					<td><#%= ingredient.quantity %></td>
+					<td><#%= ingredient.unit %></td>
+				</tr>
+			<#% end  %>
+			</tbody>
+		</table>
+		<%= button_to "Send Recipe as a text", "#", class: "btn btn-default search-btn" %>
+	</div>
+</div>
+
+
