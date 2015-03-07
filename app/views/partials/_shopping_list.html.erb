@@ -1,7 +1,6 @@
-<div class="about-box">
-	 <% if current_user.present? %>
-		<h2><%= current_user.name %>'s Shopping Lists</h2>
-		<h3>Select a shopping list</h3>
+<div class="shopping-list-select-box">
+	<h2><%= current_user.name %>'s Shopping Lists</h2>
+	<h3>Select a shopping list</h3>
 	<div>
 		<% @shopping_lists.each do |shopping_list| %>
 			<ul>
@@ -9,5 +8,4 @@
 			</ul>
 		<% end %>
 	</div>
-	<% end %>
 </div>

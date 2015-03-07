@@ -248,6 +248,11 @@ and (max-device-width : 680px) {
 	color: #000;
 }
 
+.black-heading {
+	color: #000;
+	text-align: center;
+}
+
 .recipe-description {
 	color: #fff;
 	text-align: left;
@@ -291,3 +296,14 @@ and (max-device-width : 680px) {
 table {
 background-color: #fff;
 }
+
+.shopping-list-select-box {
+	box-shadow: 4px 4px 15px #000;
+	background-color: rgba(255,255,255, .6);
+	padding: 3%;
+	color: #fff;
+	font-size: 16px;
+	margin: 0 50px 15px 50px; 
+}
+
+
