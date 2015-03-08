@@ -4,7 +4,10 @@
 	<div>
 		<% @shopping_lists.each do |shopping_list| %>
 			<ul>
-				<li><%= link_to shopping_list.name, shopping_list_path(shopping_list) %></li>	
+				<li>
+					<%= shopping_list.name %>
+					<%= render "/partials/shopping_list_ingredients", shopping_list: shopping_list %>
+			</li>	
 			</ul>
 		<% end %>
 	</div>

@@ -1,0 +1,4 @@
+<%= form_for(shopping_list) do |f| %>
+	<%= f.hidden_field :shopping_list_id, value: shopping_list.id %>
+	<%= f.submit "Add Ingredients", class: "btn btn-default search-btn" %>
+<% end %>

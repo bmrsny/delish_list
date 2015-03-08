@@ -14,6 +14,7 @@ feature "User can add ingredients to old shopping list" do
 													 subcategory: "cusine", 
 													 instructions: "throw it in a pan and cook for 12 hours")
 		@ingredient = @recipe.ingredients.create(name: "garlic", unit: "oz", quantity: "12")
+		@shopping_list = ShoppingList.create(name: "Thankgiving", user_id: @user.id)
 	end
 
 	scenario "User can add ingredients to a old shopping list" do
@@ -21,8 +22,10 @@ feature "User can add ingredients to old shopping list" do
 		expect(page).to have_content(@ingredient.name)
 		click_link_or_button "Add Ingredients to Shopping List"
 		within(".shopping-list-modal") do
-			click_link_or_button "Thanksgiving"
+			expect(page).to have_content(@shopping_list.name)
+			click_link_or_button "Add Ingredients"
 		end
-		expect(current_path).to eq(shopping_list_path(@shopping_llist))
+		expect(current_path).to eq(shopping_list_path(@shopping_list))
+		expect(page).to have_content(@ingredient.name)
 	end
 end
