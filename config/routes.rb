@@ -5,4 +5,5 @@ Rails.application.routes.draw do
 	get 'about', to: 'static_pages#about', as: :about
 	resources :recipes, only:[:index, :show]
 	resources :shopping_list
+	post "text_me", to: "shopping_list#text" 
 end

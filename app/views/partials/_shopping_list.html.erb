@@ -6,7 +6,7 @@
 			<ul>
 				<li>
 					<%= shopping_list.name %>
-					<%= render "/partials/shopping_list_ingredients", shopping_list: shopping_list %>
+					<%= render "/partials/shopping_list_ingredients", shopping_list: shopping_list, ingredients: @recipe.ingredients %>
 			</li>	
 			</ul>
 		<% end %>

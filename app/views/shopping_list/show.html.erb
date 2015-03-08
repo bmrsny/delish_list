@@ -11,16 +11,23 @@
 				</tr>
 			</thead>
 			<tbody>
-				<#% @recipe.ingredients.each do |ingredient| %>
+				<% @ingredients.each do |ingredient| %>
 				<tr>
-					<td><#%= ingredient.name %></td>
-					<td><#%= ingredient.quantity %></td>
-					<td><#%= ingredient.unit %></td>
+					<td><%= ingredient.name %></td>
+					<td><%= ingredient.quantity %></td>
+					<td><%= ingredient.unit %></td>
 				</tr>
-			<#% end  %>
+			<% end  %>
 			</tbody>
 		</table>
-		<%= button_to "Send Recipe as a text", "#", class: "btn btn-default search-btn" %>
+		<%= form_for (@shopping_list), url: text_me_path, method: :post do |f| %>
+			<%= f.hidden_field :text, value: @shopping_list.id  %>
+
+			<%= f.text_field :phone_number, placeholder: "Enter a phone number", required: true %>
+
+			<%= f.submit "Send Ingredient as a text" %>
+		<% end %>
+		<h3>Add a link for more info</h3>
 	</div>
 </div>
 
