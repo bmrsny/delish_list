@@ -1,0 +1,16 @@
+<%= form_for(shopping_list) do |f| %>
+	<%= f.hidden_field :shopping_list_id, value: shopping_list.id %>
+	
+	<% ingredients.each do |ingredient| %>
+		<%= f.hidden_field :ingredient, multiple: true, value: ingredient.id %>
+	<% end %>
+
+	<%= f.submit "Add Ingredients", class: "btn btn-default search-btn" %>
+<% end %>
+
+<#% @user.roles.each do |role| %>
+    <#%= f.hidden_field :role_ids, :multiple => true, :value => role.id %>
+	<#% end %>
+
+
+

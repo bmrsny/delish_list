@@ -1,0 +1,14 @@
+<div class="shopping-list-select-box">
+	<h2><%= current_user.name %>'s Shopping Lists</h2>
+	<h3>Select a shopping list</h3>
+	<div>
+		<% @shopping_lists.each do |shopping_list| %>
+			<ul>
+				<li>
+					<%= shopping_list.name %>
+					<%= render "/partials/shopping_list_ingredients", shopping_list: shopping_list, ingredients: @recipe.ingredients %>
+			</li>	
+			</ul>
+		<% end %>
+	</div>
+</div>

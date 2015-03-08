@@ -21,10 +21,10 @@ module DelishList
     # -- all .rb files in that directory are automatically loaded.
 		#
 		#config.serve_static_assets = true 
-		#Twilio.configure do |config|
-  	#	config.account_sid = ENV['TWILIO_SID']
-		#	config.auth_token = ENV['TWILIO_TOKEN'] 
-		#end
+		Twilio.configure do |config|
+  		config.account_sid = TWILIO_SID
+			config.auth_token = TWILIO_TOKEN 
+		end
     # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
     # config.time_zone = 'Central Time (US & Canada)'

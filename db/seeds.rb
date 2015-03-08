@@ -50,6 +50,7 @@ class Seed
 			RecipeIngredient.create(recipe_id: rand(1..29), ingredient_id: rand(1..29))
 		end
  end
+ 
 end
 
 Seed.new

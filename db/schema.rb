@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150305172607) do
+ActiveRecord::Schema.define(version: 20150308020538) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -50,6 +50,26 @@ ActiveRecord::Schema.define(version: 20150305172607) do
     t.datetime "image_updated_at"
   end
 
+  create_table "shopping_list_ingredients", force: :cascade do |t|
+    t.integer  "shopping_list_id"
+    t.integer  "ingredient_id"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+  end
+
+  add_index "shopping_list_ingredients", ["ingredient_id"], name: "index_shopping_list_ingredients_on_ingredient_id", using: :btree
+  add_index "shopping_list_ingredients", ["shopping_list_id"], name: "index_shopping_list_ingredients_on_shopping_list_id", using: :btree
+
+  create_table "shopping_lists", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "user_id"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+    t.string   "phone_number"
+  end
+
+  add_index "shopping_lists", ["user_id"], name: "index_shopping_lists_on_user_id", using: :btree
+
   create_table "users", force: :cascade do |t|
     t.string   "name"
     t.string   "nickname"
@@ -64,4 +84,7 @@ ActiveRecord::Schema.define(version: 20150305172607) do
 
   add_foreign_key "recipe_ingredients", "ingredients"
   add_foreign_key "recipe_ingredients", "recipes"
+  add_foreign_key "shopping_list_ingredients", "ingredients"
+  add_foreign_key "shopping_list_ingredients", "shopping_lists"
+  add_foreign_key "shopping_lists", "users"
 end

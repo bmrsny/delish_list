@@ -1,0 +1,34 @@
+<div class="recipes-page">
+	<div class="container recipe-show-page">
+	<h1 class="recipe-heading"><%= current_user.name %>'s Shopping List</h1>
+	<h2 class="black-heading"><%= @shopping_list.name %> Shopping List</h2>
+		<table class="table table-hover">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Quantity</th>
+					<th>Unit</th>
+				</tr>
+			</thead>
+			<tbody>
+				<% @ingredients.each do |ingredient| %>
+				<tr>
+					<td><%= ingredient.name %></td>
+					<td><%= ingredient.quantity %></td>
+					<td><%= ingredient.unit %></td>
+				</tr>
+			<% end  %>
+			</tbody>
+		</table>
+		<%= form_for (@shopping_list), url: text_me_path, method: :post do |f| %>
+			<%= f.hidden_field :text, value: @shopping_list.id  %>
+
+			<%= f.text_field :phone_number, placeholder: "Enter a phone number", required: true %>
+
+			<%= f.submit "Send Ingredient as a text" %>
+		<% end %>
+		<h3>Add a link for more info</h3>
+	</div>
+</div>
+
+
