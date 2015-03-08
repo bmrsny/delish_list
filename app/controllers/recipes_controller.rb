@@ -4,6 +4,7 @@ class RecipesController < ApplicationController
 	end
 
 	def show
+		@shopping_list = ShoppingList.new
 		 @recipe = Recipe.find(params[:id])
 		 session[:last_page] = "/recipes/#{@recipe.id}"
 		 if current_user.present?
@@ -12,4 +13,5 @@ class RecipesController < ApplicationController
 		 end
 		#@recipe = Recipe.fetch_single
 	end
+
 end
