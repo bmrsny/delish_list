@@ -1,5 +1,19 @@
 <div class="shopping-list-select-box">
 	<h2><%= current_user.name %>'s Shopping Lists</h2>
+	<h3>Add a New Shopping List</h3>
+
+	<%= form_for (@shopping_list), url: shopping_list_index_path, method: :post do |f| %>
+		<%= f.label :name, "Name" %>
+		<%= f.text_field :name, placeholder: "Enter a shopping list name", required: true  %>
+
+		<% @recipe.ingredients.each do |ingredient| %>
+			<%= f.hidden_field :ingredient, multiple: true, value: ingredient.id %>
+		<% end %>
+
+		<%= f.submit "Create new shopping list", class: "btn btn-default search-btn" %>
+	<% end %>
+
+	<hr>	
 	<h3>Select a shopping list</h3>
 	<div>
 		<% @shopping_lists.each do |shopping_list| %>
