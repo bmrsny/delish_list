@@ -2,7 +2,7 @@ class ShoppingListController < ApplicationController
 	before_filter :authorize
 
 	def create
-		@shopping_list = ShoppingList.create(name: params[:shopping_list][:name])	
+		@shopping_list = current_user.shopping_lists.create(name: params[:shopping_list][:name])	
 		@ingredients = params[:shopping_list][:ingredient].map do |ingredient_id|
 			@shopping_list.ingredients << Ingredient.find_by(id: ingredient_id.to_i)
 		end
@@ -16,7 +16,7 @@ class ShoppingListController < ApplicationController
 	end
 
 	def update 
-		@shopping_list = ShoppingList.find(params[:shopping_list][:shopping_list_id])
+		@shopping_list = current_user.shopping_lists.find(params[:shopping_list][:shopping_list_id])
 		@ingredients = params[:shopping_list][:ingredient].map do |ingredient_id|
 			@shopping_list.ingredients << Ingredient.find_by(id: ingredient_id.to_i)
 		end
