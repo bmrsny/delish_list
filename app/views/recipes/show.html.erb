@@ -30,9 +30,6 @@
 			<% end %>
 			</table>
 
-		<#%= render "partials/recipe_id_form" %>
-	<#%= link_to "Add Ingredients to Shopping List", shopping_list_index_path(:id => "#{@recipe.id}"), class: "btn btn-default search-btn"  %>
-
 	<% if current_user.nil? %>
 		<%= link_to "Add Ingredients to Shopping List", "#", class: "not_logged_in btn btn-default search-btn" %>
 	<% else %>

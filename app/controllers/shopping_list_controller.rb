@@ -1,17 +1,22 @@
 class ShoppingListController < ApplicationController
 	before_filter :authorize
 
-#	def index
-#		 @recipe = Recipe.find(params[:id])
-#	end
+	def create
+		@shopping_list = current_user.shopping_lists.create(name: params[:shopping_list][:name])	
+		@ingredients = params[:shopping_list][:ingredient].map do |ingredient_id|
+			@shopping_list.ingredients << Ingredient.find_by(id: ingredient_id.to_i)
+		end
 
+		redirect_to shopping_list_path(@shopping_list)
+	end
+	
 	def show
 			@shopping_list = ShoppingList.find(params[:id])
 			@ingredients = @shopping_list.ingredients
 	end
 
 	def update 
-		@shopping_list = ShoppingList.find(params[:shopping_list][:shopping_list_id])
+		@shopping_list = current_user.shopping_lists.find(params[:shopping_list][:shopping_list_id])
 		@ingredients = params[:shopping_list][:ingredient].map do |ingredient_id|
 			@shopping_list.ingredients << Ingredient.find_by(id: ingredient_id.to_i)
 		end
@@ -31,9 +36,7 @@ class ShoppingListController < ApplicationController
 			@client = Twilio::REST::Client.new
 			@client.messages.create(
 				from: '+17206135789',
-				#to: '+13035499244',
-				to: "1" + "#{params[:shopping_list][:phone_number]}",
-				#body: @shopping_list.id 
+				to: "+1" + "#{params[:shopping_list][:phone_number]}",
 				body: list.join(" ")
 				)
 		redirect_to :back
@@ -46,5 +49,9 @@ class ShoppingListController < ApplicationController
 			redirect_to root_path
 			flash[:alert] = "You are not authorized to visit this page"
 		end
+	end
+
+	def shopping_list_params
+		params.require(:shopping_list).permit(:name, :user_id)
 	end
 end
