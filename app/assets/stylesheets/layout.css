@@ -307,7 +307,16 @@ background-color: #fff;
 }
 
 .form-group {
-	color:#000;
+	color: #000;
+	padding: 3%;
+}
+
+#shopping_list_name{
+	width: 200px;
+}
+
+.inline-list {
+	display: inline;
 }
 
 

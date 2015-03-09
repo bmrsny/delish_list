@@ -24,9 +24,10 @@
 	<div>
 		<% @shopping_lists.each do |shopping_list| %>
 			<ul>
-				<li>
+				<li class="inline-list">
 					<%= shopping_list.name %>
 					<%= render "/partials/shopping_list_ingredients", shopping_list: shopping_list, ingredients: @recipe.ingredients %>
+					<hr>
 			</li>	
 			</ul>
 		<% end %>

@@ -3,7 +3,7 @@ class Fetcher
 	base_uri 'api.bigoven.com'
 
 	def initialize()
-	  @options = {api_key: 'dvx763458nvGiC8cM7bHQYCPHT9KK12R' }
+	  @options = {api_key: ENV['BIG_OVEN_KEY'] }
 	end
 
 	def single_recipe(id)

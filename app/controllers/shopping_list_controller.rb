@@ -36,9 +36,7 @@ class ShoppingListController < ApplicationController
 			@client = Twilio::REST::Client.new
 			@client.messages.create(
 				from: '+17206135789',
-				#to: '+13035499244',
-				to: "1" + "#{params[:shopping_list][:phone_number]}",
-				#body: @shopping_list.id 
+				to: "+1" + "#{params[:shopping_list][:phone_number]}",
 				body: list.join(" ")
 				)
 		redirect_to :back
