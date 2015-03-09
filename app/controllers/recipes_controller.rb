@@ -1,6 +1,7 @@
 class RecipesController < ApplicationController
 	def index
 		@recipes = Recipe.all
+		Recipe.search_by_keyword(keyword=params[:search])
 	end
 
 	def show

@@ -5,13 +5,16 @@ class Recipe < ActiveRecord::Base
 	has_many :recipe_ingredients
 	has_many :ingredients, through: :recipe_ingredients
 
-	def self.search_by_keyword#(keyword)
+	def self.search_by_keyword(keyword)
 		conn = Fetcher.new()
-		response = conn.search_input#(keyword)
-		recipe_info = response.parsed_response["RecipeSearchResult"]["Results"]["RecipeInfo"]
-		recipe_info.map do |recipe_hash|
-			recipe_hash["Title"]
-		end	
+		response = conn.search_input(keyword)
+		recipe_info = response.parsed_response["RecipeSearchResult"]["Results"]
+
+		#THIS GETS ALL RECIPES TITLES
+		#recipe_info = response.parsed_response["RecipeSearchResult"]["Results"]["RecipeInfo"]
+		#recipe_info.map do |recipe_hash|
+		#	recipe_hash["Title"]
+		#end	
 	end
 
 	def self.fetch_single(id)

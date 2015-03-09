@@ -14,8 +14,8 @@ class Fetcher
 		self.class.get("/recipe/#{id.to_s}?api_key=#{ENV["BIG_OVEN_KEY"]}", @options)
 	end
 
-	def search_input#(keyword) 
-		self.class.get("/recipes?title_kw=oyster&pg=1&rpp=20&api_key=#{ENV['BIG_OVEN_KEY']}", @options)
+	def search_input(keyword) 
+		self.class.get("/recipes?title_kw=#{keyword}&pg=1&rpp=20&api_key=#{ENV['BIG_OVEN_KEY']}", @options)
 		#recipes?title_kw=oysters&pg=1&rpp=20&api_key={your-api-key}
 	end
 end
