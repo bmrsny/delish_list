@@ -1,3 +1,5 @@
+require "httparty"
+
 class Fetcher
 	include HTTParty
 	base_uri 'api.bigoven.com'
