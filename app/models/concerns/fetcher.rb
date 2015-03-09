@@ -9,8 +9,9 @@ class Fetcher
 	end
 
 	def single_recipe(id)
-		@options.merge({id: id.to_s})
-		self.class.get("/recipe/", @options)
+		#@options.merge({id: id.to_s})
+		#47725?api_key=dvx763458nvGiC8cM7bHQYCPHT9KK12R
+		self.class.get("/recipe/#{id.to_s}?api_key=#{ENV["BIG_OVEN_KEY"]}", @options)
 	end
 
 	def users
