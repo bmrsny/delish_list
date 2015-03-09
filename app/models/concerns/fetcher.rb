@@ -10,7 +10,7 @@ class Fetcher
 
 	def single_recipe(id)
 		@options.merge({id: id.to_s})
-		self.class.get("/recipe", @options)
+		self.class.get("/recipe/", @options)
 	end
 
 	def users

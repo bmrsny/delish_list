@@ -11,7 +11,7 @@ class RecipesController < ApplicationController
 		 	@shopping_lists = current_user.shopping_lists
 			#@shopping_list.ingredients << @recipe.ingredients
 		 end
-		#@recipe = Recipe.fetch_single
+		#@recipe = Recipe.fetch_single(3)
 	end
 
 end
