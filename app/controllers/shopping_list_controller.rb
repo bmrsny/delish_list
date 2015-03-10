@@ -26,7 +26,7 @@ class ShoppingListController < ApplicationController
 	def text
 		@shopping_list = ShoppingList.find(params[:shopping_list][:text])
 		list = @shopping_list.ingredients.map do |ingredient|
-			"Name: #{ingredient.name}\n #{ingredient.unit} #{ingredient.quantity}\n" 
+			"Name: #{ingredient.name}\n #{ingredient.quantity} #{ingredient.unit}\n" 
 		end
 
 			Twilio.configure do |config|
