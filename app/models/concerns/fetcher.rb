@@ -13,7 +13,7 @@ class Fetcher
 	end
 
 	def search_input(keyword) 
-		self.class.get("/recipes?title_kw=#{URI.escape(keyword)}&pg=1&rpp=20&api_key=#{ENV['BIG_OVEN_KEY']}", @options)
+			self.class.get("/recipes?title_kw=#{URI.escape(keyword)}&pg=1&rpp=20&api_key=#{ENV['BIG_OVEN_KEY']}", @options)
 	end
 
 	def search_by_keyword(keyword)
