@@ -1,7 +1,13 @@
 class RecipesController < ApplicationController
 	def index
+		if Fetcher.new.search_by_keyword(params[:search]) == false
+			flash[:error] = "#{params[:search]} is not a valid search term."	
+			redirect_to root_path
+		else
 		Fetcher.new.create_or_find_recipes(params[:search])
-			@recipes = Recipe.all.last(20)
+			#@recipes = Recipe.all.last(20)
+			@recipes = Recipe.order("created_at desc").limit(20)
+		end
 	end
 
 	def show
@@ -11,15 +17,5 @@ class RecipesController < ApplicationController
 		 if current_user.present?
 		 	@shopping_lists = current_user.shopping_lists
 		 end
-	end
-
-	private
-
-	def response_titles
-		Fetcher.new.get_recipe_titles_from_search(params[:search])
-	end
-
-	def response_urls
-		Fetcher.new.get_recipe_urls_from_search(params[:search])
 	end
 end
