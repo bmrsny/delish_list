@@ -2,6 +2,8 @@ class RecipesController < ApplicationController
 	def index
 		Fetcher.new.create_or_find_recipes(params[:search])
 			@recipes = Recipe.all.last(20)
+			require "pry" 
+			 binding.pry
 	end
 
 	def show

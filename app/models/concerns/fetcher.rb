@@ -34,7 +34,8 @@ class Fetcher
 		response = search_response(keyword) 
 		response.map do |recipe| 
 			Recipe.find_or_create_by(title: recipe["Title"], 
-															 recipe_key: recipe["RecipeID"])
+															 recipe_key: recipe["RecipeID"],
+															 image: recipe["ImageURL"])
 		end
 	end
 end
