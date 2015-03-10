@@ -1,12 +1,10 @@
 class Recipe < ActiveRecord::Base
-	has_attached_file :image, :styles => { :medium => "300x300>", :thumb => "100x100>" }, :default_url => "/images/:style/missing.png"
-  validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
-	
+	 has_attached_file :image, styles: { medium: "300x300>",
+                                      thumb: "100x100>" },
+                                      default_url: ""
+  validates_attachment_content_type :image, content_type: /\Aimage\/.*\Z/
+
 	has_many :recipe_ingredients
 	has_many :ingredients, through: :recipe_ingredients
 
-	def self.fetch_single(id)
-		conn = Fetcher.new()
-		response = conn.single_recipe(id)
-	end
 end

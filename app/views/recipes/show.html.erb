@@ -5,6 +5,7 @@
 		<!--<div class="col-sm-3 recipe-info-box">-->
 				<!--	</div> -->
 				<div class="col-span-9 recipe-image-box">
+					<%= image_tag @recipe.image_url  %>
 				<h4 class="recipe-description">Title: <%= @recipe.title %></h4>
 				<h4 class="recipe-description">Description: <%= @recipe.description %></h4>
 				</div>

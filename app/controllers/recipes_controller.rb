@@ -1,6 +1,7 @@
 class RecipesController < ApplicationController
 	def index
-		@recipes = Recipe.all
+		Fetcher.new.create_or_find_recipes(params[:search])
+			@recipes = Recipe.all.last(20)
 	end
 
 	def show
@@ -9,9 +10,16 @@ class RecipesController < ApplicationController
 		 session[:last_page] = "/recipes/#{@recipe.id}"
 		 if current_user.present?
 		 	@shopping_lists = current_user.shopping_lists
-			#@shopping_list.ingredients << @recipe.ingredients
 		 end
-		#@recipe = Recipe.fetch_single(3)
 	end
 
+	private
+
+	def response_titles
+		Fetcher.new.get_recipe_titles_from_search(params[:search])
+	end
+
+	def response_urls
+		Fetcher.new.get_recipe_urls_from_search(params[:search])
+	end
 end
