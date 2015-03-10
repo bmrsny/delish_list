@@ -1,7 +1,7 @@
 class RecipesController < ApplicationController
 	def index
-		Recipe.find_or_create_from(response_titles, response_urls)
-		@recipes = Recipe.all.last(response_titles.length)
+		Fetcher.new.create_or_find_recipes(params[:search])
+			@recipes = Recipe.all.last(20)
 	end
 
 	def show
