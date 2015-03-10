@@ -1,6 +1,6 @@
 <div class="shopping-list-select-box">
-	<h2><%= current_user.name %>'s Shopping Lists</h2>
-	<h3>Add a New Shopping List</h3>
+	<h2 class="black-heading"><%= current_user.name %>'s Shopping Lists</h2>
+	<h3 class="black-heading">Add a New Shopping List</h3>
 
 	<div class="form-horizontal reg-form">
 		<%= form_for (@shopping_list), url: shopping_list_index_path, method: :post do |f| %>
@@ -20,16 +20,13 @@
 	</div>
 
 	<hr>	
-	<h3>Select a shopping list</h3>
+	<h2 class="black-heading">Select a shopping list</h2></br>
 	<div>
 		<% @shopping_lists.each do |shopping_list| %>
-			<ul>
-				<li class="inline-list">
+				<h3 class="black-heading inline-list">
 					<%= shopping_list.name %>
 					<%= render "/partials/shopping_list_ingredients", shopping_list: shopping_list, ingredients: @recipe.ingredients %>
 					<hr>
-			</li>	
-			</ul>
 		<% end %>
 	</div>
 </div>
