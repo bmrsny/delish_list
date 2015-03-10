@@ -23,7 +23,6 @@ class Fetcher
 
 	def fetch_single(id)
 		response = conn.single_recipe(id)
-		#response.parsed_response["Recipe"]["Title"]
 	end
 
 	def search_response(keyword)
@@ -35,7 +34,7 @@ class Fetcher
 		response.map do |recipe| 
 			Recipe.find_or_create_by(title: recipe["Title"], 
 															 recipe_key: recipe["RecipeID"],
-															 image: recipe["ImageURL"])
+															 image_url: recipe["ImageURL"])
 		end
 	end
 end

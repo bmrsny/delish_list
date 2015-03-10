@@ -4,6 +4,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	color: #fff;
 }
 
+h4 {
+	font-size: 18px;
+}
+
 #logo {
 	text-align: center;
 }
@@ -193,7 +197,7 @@ and (max-device-width : 680px) {
 	margin-bottom: 10px;
 }
 
-.recipes-box-title ul li {
+.recipes-box-title {
 	list-style-type: none;
 	text-align: center;
 }
@@ -202,9 +206,14 @@ and (max-device-width : 680px) {
 .recipes-box-image {
 	background-color: #fff;
 	height:230px;
-	background-image: url("kiwi.jpg");
-	background-size: 100%;
+	width: 100%;
+	overflow: hidden;
 }
+
+.recipes-box-image img {
+	max-height: 230px;
+}
+
 
 .twitter-box {
 	margin: 10px 20px;
@@ -288,9 +297,13 @@ and (max-device-width : 680px) {
 	height: 320px;
 	padding: 2%;
 	margin: 0 15px 10px 15px;
-	background-color: #000;
-	background-image: url("kiwi.jpg");
-	background-size: 100%;
+	text-align: center;
+}
+
+.recipe-image-box img {
+	overflow: hidden;
+	height: 100%;
+	margin: 0 auto;
 }
 
 table {
