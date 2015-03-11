@@ -19,7 +19,7 @@ class ApplicationController < ActionController::Base
 	def redirect_to_or_back
 		if session[:last_page]
 			redirect_to session[:last_page]
-			flash[:success] = "Login in as #{current_user.name}."
+			flash[:success] = "Logged in as #{current_user.name}."
 		 else 
 			 flash[:success] = "Logged in as #{current_user.name}."
 			 redirect_to root_path
