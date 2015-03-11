@@ -1,13 +1,17 @@
 <div class="recipes-page">
 	<div class="container recipe-show-page">
-	<h1 class= "recipe-heading"><%= @recipe.title  %></h1>
+	<h1 class= "recipe-heading"><%= @recipe.Title  %></h1>
 		<div class="row">
 		<!--<div class="col-sm-3 recipe-info-box">-->
 				<!--	</div> -->
 				<div class="col-span-9 recipe-image-box">
-					<%= image_tag @recipe.image_url  %>
-				<h4 class="recipe-description">Title: <%= @recipe.title %></h4>
-				<h4 class="recipe-description">Description: <%= @recipe.description %></h4>
+					<%= image_tag @recipe.ImageURL %>
+					<h4 class="recipe-description">Title: <%= @recipe.Title %></h4>
+					<% if @recipe.Description == nil %>
+								 <h4 class="recipe-description">Description: No description given.</h4>
+								 <% else %>
+								 <h4 class="recipe-description">Description: <%= @recipe.Description %></h4>
+								 <% end %>
 				</div>
 			</div>
 
@@ -21,11 +25,11 @@
 				</tr>
 			</thead>
 			<tbody>
-				<% @recipe.ingredients.each do |ingredient| %>
+				<% @recipe.Ingredients["Ingredient"].each do |ingredient| %>
 				<tr>
-					<td><%= ingredient.name %></td>
-					<td><%= ingredient.quantity %></td>
-					<td><%= ingredient.unit %></td>
+					<td><%= ingredient["Name"] %></td>
+					<td><%= ingredient["Quantity"] %></td>
+					<td><%= ingredient["Unit"] %></td>
 				</tr>
 			</tbody>
 			<% end %>
@@ -48,7 +52,7 @@
 </div>
 <div class="seperator-box-2">
 		<h2 class="seperator-text-2">Instructions</h2>
-		<p class="seperator-text-2"><%= @recipe.instructions %></p>
+		<p class="seperator-text-2"><%= @recipe.Instructions %></p>
 </div>
 
 

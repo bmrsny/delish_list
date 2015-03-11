@@ -30,7 +30,7 @@ class Fetcher
 	end
 
 	def fetch_single(id)
-		response = conn.single_recipe(id)
+		response = single_recipe(id)["Recipe"]
 	end
 
 	def create_or_find_recipes(keyword)

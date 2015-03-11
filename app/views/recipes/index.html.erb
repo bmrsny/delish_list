@@ -5,11 +5,11 @@
 		<% @recipes.each do |recipe| %>
 			<div class="recipe-box col-sm-3">
 				<div class="recipes-box-image">
-					<%= image_tag recipe.image_url %>
+					<%= image_tag recipe.ImageURL %>
 				</div>
 				<div class="recipes-box-title">
-						<h4><%= recipe.title %></h4>
-					<%= link_to "View Ingredients", recipe_path(recipe), class:"btn btn-default ingredient-btn" %>
+						<h4><%= recipe.Title %></h4>
+					<%= link_to "View Ingredients", recipe_path(recipe.RecipeID), class:"btn btn-default ingredient-btn" %>
 				</div>
 			</div>
 		<% end %>
