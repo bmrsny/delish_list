@@ -34,14 +34,15 @@ class Fetcher
 	end
 
 	def fetch_ingredients(id)
-		recipe = single_recipe(id)
-		recipe["Recipe"]["Ingredients"]
+		recipe = fetch_single(id)
+		#recipe["Recipe"]["Ingredients"]["Ingredients"]
+		recipe["Ingredients"]["Ingredient"]
 	end
 
-	def fetch_recipe_ingredients_by(id)
-		recipe = single_recipe(id)
-		#recipe["Ingredients"]
-	end
+	#def fetch_recipe_ingredients_by(id)
+	#	recipe = single_recipe(id)
+	#	recipe["Ingredient"]
+	#end
 
 #	def create_or_find_recipes(keyword)
 #			response = search_response(keyword) 

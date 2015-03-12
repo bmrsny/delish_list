@@ -2,10 +2,9 @@ class ShoppingListController < ApplicationController
 	before_filter :authorize
 
 	def create
-		require "pry" 
-		 binding.pry
 		@shopping_list = current_user.shopping_lists.create(name: params[:shopping_list][:name])	
 		@ingredients = Recipe.ingredients_list(params[:shopping_list][:recipe_id])
+		session[:recipe_id] = params[:shopping_list][:recipe_id]
 		#@ingredients = params[:shopping_list][:ingredient].map do |ingredient_id|
 			#@shopping_list.ingredients << Ingredient.find_by(id: ingredient_id.to_i)
 		#end
@@ -16,7 +15,7 @@ class ShoppingListController < ApplicationController
 	def show
 			@shopping_list = ShoppingList.find(params[:id])
 			#@ingredients = @shopping_list.ingredients
-			@ingredients = Recipe.ingredients_list(params[:recipe_id])
+			@ingredients = Recipe.ingredients_list(session[:recipe_id])
 	end
 
 	def update 

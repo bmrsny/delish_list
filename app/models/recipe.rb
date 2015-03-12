@@ -15,9 +15,9 @@ class Recipe < ActiveRecord::Base
 		if service.search_by_keyword(keyword) == false
 			false
 		else
-		service.search_by_keyword(keyword).map do |recipe|
-			_build_object(recipe)	
-		end
+			service.search_by_keyword(keyword).map do |recipe|
+				_build_object(recipe)	
+			end
 		end
 	end
 
