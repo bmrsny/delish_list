@@ -1,9 +1,11 @@
 <%= form_for(shopping_list) do |f| %>
 	<%= f.hidden_field :shopping_list_id, value: shopping_list.id %>
 	
-	<% ingredients.each do |ingredient| %>
-		<%= f.hidden_field :ingredient, multiple: true, value: ingredient.id %>
-	<% end %>
+	<#% ingredients.each do |ingredient| %>
+		<#%= f.hidden_field :ingredient, multiple: true, value: ingredient.id %>
+	<#% end %>
+
+	<%= f.hidden_field :recipe_id, value: @recipe.RecipeID  %>
 
 	<%= f.submit "Add Ingredients", class: "btn btn-default search-btn" %>
 <% end %>

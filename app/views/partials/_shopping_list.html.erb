@@ -9,10 +9,12 @@
 				<%= f.text_field :name, placeholder: "Enter a shopping list name", required: true  %>
 			</div>	
 
+				<%= f.hidden_field :recipe_id, value: @recipe.RecipeID  %>
+				
 			<div class="form-group">
-				<% @recipe.ingredients.each do |ingredient| %>
-					<%= f.hidden_field :ingredient, multiple: true, value: ingredient.id %>
-				<% end %>
+				<#% @recipe.ingredients.each do |ingredient| %>
+					<#%= f.hidden_field :ingredient, multiple: true, value: ingredient.id %>
+				<#% end %>
 			</div>	
 			
 			<%= f.submit "Create new shopping list", class: "btn btn-default search-btn" %>
