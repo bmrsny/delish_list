@@ -1,6 +1,9 @@
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 require 'simplecov'  
-SimpleCov.start
+SimpleCov.start do 
+	add_filter "/spec/"
+	add_filter "/config/"
+end
 
 ENV["RAILS_ENV"] ||= 'test'
 require 'spec_helper'
@@ -12,6 +15,7 @@ require 'support/database_cleaner'
 require 'capybara/rspec'  
 require 'selenium-webdriver'  
 require 'capybara/poltergeist'
+require 'vcr'
 
 OmniAuth.config.test_mode = true
 Capybara.javascript_driver = :poltergeist
@@ -60,4 +64,9 @@ RSpec.configure do |config|
   # The different available types are documented in the features, such as in
   # https://relishapp.com/rspec/rspec-rails/docs
   config.infer_spec_type_from_file_location!
+end
+
+VCR.configure do |config|
+  config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
+  config.hook_into :webmock
 end

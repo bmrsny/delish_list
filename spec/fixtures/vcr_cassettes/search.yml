@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.bigoven.com/recipes?api_key=&pg=1&rpp=40&title_kw=brownies
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - public, max-age=360
+      Content-Type:
+      - text/xml; charset=utf-8
+      Expires:
+      - Thu, 12 Mar 2015 21:59:05 GMT
+      Last-Modified:
+      - Thu, 12 Mar 2015 21:53:05 GMT
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnetmvc-Version:
+      - '5.0'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE,OPTIONS
+      Access-Control-Allow-Headers:
+      - Content-Type
+      Date:
+      - Thu, 12 Mar 2015 21:53:04 GMT
+      Content-Length:
+      - '243'
+    body:
+      encoding: UTF-8
+      string: "<Result xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\r\n
+        \ <StatusCode>403</StatusCode>\r\n  <Message>Invalid API Client.</Message>\r\n</Result>"
+    http_version: 
+  recorded_at: Thu, 12 Mar 2015 21:53:02 GMT
+recorded_with: VCR 2.9.3
