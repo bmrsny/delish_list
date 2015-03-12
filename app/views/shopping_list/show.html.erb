@@ -11,13 +11,13 @@
 				</tr>
 			</thead>
 			<tbody>
-				<% @ingredients.each do |ingredient| %>
+				<#% @ingredients.each do |ingredient| %>
 				<tr>
-					<td><%= ingredient.name %></td>
-					<td><%= ingredient.quantity %></td>
-					<td><%= ingredient.unit %></td>
+					<td><#%= ingredient.name %></td>
+					<td><#%= ingredient.quantity %></td>
+					<td><#%= ingredient.unit %></td>
 				</tr>
-			<% end  %>
+			<#% end  %>
 			</tbody>
 		</table>
 		<%= form_for (@shopping_list), url: text_me_path, method: :post do |f| %>

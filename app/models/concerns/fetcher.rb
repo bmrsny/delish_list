@@ -13,7 +13,7 @@ class Fetcher
 	end
 
 	def search_input(keyword) 
-			self.class.get("/recipes?title_kw=#{URI.escape(keyword)}&pg=1&rpp=20&api_key=#{ENV['BIG_OVEN_KEY']}", @options)
+			self.class.get("/recipes?title_kw=#{URI.escape(keyword)}&pg=1&rpp=40&api_key=#{ENV['BIG_OVEN_KEY']}", @options)
 	end
 	
 	def search_response(keyword)
@@ -33,12 +33,22 @@ class Fetcher
 		response = single_recipe(id)["Recipe"]
 	end
 
-	def create_or_find_recipes(keyword)
-			response = search_response(keyword) 
-			response.map do |recipe| 
-				 new_recipe = Recipe.find_or_create_by(title: recipe["Title"], 
-															 	recipe_key: recipe["RecipeID"],
-															  image_url: recipe["ImageURL"])
-			end
+	def fetch_ingredients(id)
+		recipe = single_recipe(id)
+		recipe["Recipe"]["Ingredients"]
 	end
+
+	def fetch_recipe_ingredients_by(id)
+		recipe = single_recipe(id)
+		#recipe["Ingredients"]
+	end
+
+#	def create_or_find_recipes(keyword)
+#			response = search_response(keyword) 
+#			response.map do |recipe| 
+#				 new_recipe = Recipe.find_or_create_by(title: recipe["Title"], 
+#															 	recipe_key: recipe["RecipeID"],
+#															  image_url: recipe["ImageURL"])
+#			end
+#	end
 end

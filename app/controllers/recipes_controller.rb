@@ -9,7 +9,7 @@ class RecipesController < ApplicationController
 		#	@recipes = Recipe.order("created_at desc").limit(20)
 		#end
 		if Recipe.search(params[:search]) == false
-			flash[:error] = "#{params[:search]} is not a valid search term."
+			flash[:alert] = "#{params[:search]} is not a valid search term."
 			redirect_to root_path
 		else
 			@recipes = Recipe.search(params[:search])
