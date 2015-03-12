@@ -13,9 +13,9 @@
 			<tbody>
 				<% @ingredients.each do |ingredient| %>
 				<tr>
-					<td><%= ingredient["Name"] %></td>
-					<td><%= ingredient["Quantity"] %></td>
-					<td><%= ingredient["Unit"] %></td>
+					<td><%= ingredient.name %></td>
+					<td><%= ingredient.quantity %></td>
+					<td><%= ingredient.unit %></td>
 				</tr>
 			<% end  %>
 			</tbody>
