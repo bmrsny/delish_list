@@ -1,16 +1,11 @@
 class ShoppingListController < ApplicationController
 	before_filter :authorize
-	before_action :set_recipe_id
 
 	def create
 		@shopping_list = current_user.shopping_lists.create(name: params[:shopping_list][:name])	
 		@ingredients = Recipe.ingredients_list(params[:shopping_list][:recipe_id]).map do |ingredient|
 			@shopping_list.ingredients.create(name: ingredient["Name"], quantity: ingredient["Quantity"], unit: ingredient["Unit"])
 		end
-		#session[:recipe_id] = params[:shopping_list][:recipe_id]
-		#@ingredients = params[:shopping_list][:ingredient].map do |ingredient_id|
-			#@shopping_list.ingredients << Ingredient.find_by(id: ingredient_id.to_i)
-		#end
 
 		redirect_to shopping_list_path(@shopping_list)
 	end
@@ -18,10 +13,6 @@ class ShoppingListController < ApplicationController
 	def show
 			@shopping_list = ShoppingList.find(params[:id])
 			@ingredients = @shopping_list.ingredients
-			#ingredients_list.each do |ingredient|
-			#	@shopping_list.ingredients << Ingredient.create(name: ingredient["Name"], quantity: ingredient["Quantity"], unit: ingredient["Unit"])
-			#end
-			#@ingredients = @shopping_list.ingredients
 	end
 
 	def update 
@@ -29,11 +20,6 @@ class ShoppingListController < ApplicationController
 			@ingredients = Recipe.ingredients_list(params[:shopping_list][:recipe_id]).map do |ingredient|
 			@shopping_list.ingredients.create(name: ingredient["Name"], quantity: ingredient["Quantity"], unit: ingredient["Unit"])
 		end
-		#if params[:shopping_list][:ingredient] 
-			#@ingredients = params[:shopping_list][:ingredient].map do |ingredient_id|
-			#@shopping_list.ingredients << Ingredient.find_by(id: ingredient_id.to_i)
-			#end
-		#end
 		redirect_to shopping_list_path(@shopping_list)
 	end
 
@@ -67,11 +53,5 @@ class ShoppingListController < ApplicationController
 
 	def shopping_list_params
 		params.require(:shopping_list).permit(:name, :user_id)
-	end
-
-	def set_recipe_id
-		if params[:shopping_list] != nil && params[:shopping_list][:recipe_id] != nil
-			session[:recipe_id] = (params[:shopping_list][:recipe_id])
-		end
 	end
 end
