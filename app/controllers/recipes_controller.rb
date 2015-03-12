@@ -11,7 +11,7 @@ class RecipesController < ApplicationController
 	def show
 		@shopping_list = ShoppingList.new
 		 @recipe = Recipe.single_recipe(params[:id])
-		 session[:last_page] = request.referer
+			session[:last_page] = request.referer
 		if current_user
 		 	@shopping_lists = current_user.shopping_lists
 		 end

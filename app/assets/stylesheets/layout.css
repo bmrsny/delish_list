@@ -253,7 +253,6 @@ and (max-device-width : 680px) {
 .ingredients {
 	text-align: center;
 	color: #000;
-   padding-top: 5%;
 }
 
 .recipe-heading {
@@ -266,7 +265,6 @@ and (max-device-width : 680px) {
 }
 
 .recipe-description {
-	color: #fff;
 	text-align: left;
 }
 
@@ -297,16 +295,15 @@ and (max-device-width : 680px) {
 }
 
 .recipe-image-box {
-	height: 320px;
+	height: auto;
 	padding: 2%;
 	margin: 0 15px 10px 15px;
-	text-align: center;
 }
 
 .recipe-image-box img {
 	overflow: hidden;
-	height: 100%;
-	margin: 0 auto;
+	max-width: 100%;
+	margin: 48px auto;
 }
 
 table {
