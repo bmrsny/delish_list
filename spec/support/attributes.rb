@@ -20,3 +20,9 @@ def ingredients_attributes(overrides={})
 		unit: "oz"
 	}.merge(overrides)
 end
+
+def shopping_list_attributes(overrides={})
+	{
+		name: "Turkey Day"
+	}
+end

@@ -8,7 +8,8 @@ feature "User Login" do
 			.and_return(@user)
 	end
 	scenario "User can login with Twitter" do 
-		visit shopping_list_index_path
-		expect(current_path).to eq(shopping_list_index_path)
+		@shopping_list = ShoppingList.create(shopping_list_attributes)
+		visit shopping_list_path(@shopping_list)
+		expect(current_path).to eq(shopping_list_path(@shopping_list))
 	end
 end
