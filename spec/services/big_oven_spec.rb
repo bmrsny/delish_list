@@ -55,5 +55,18 @@ RSpec.describe Fetcher, :type => :model do
 			end
 		end
 
+		context "get ingredients from recipe id" do
+			VCR.use_cassette("fetch_ingredients") do
+				ingredients = Fetcher.new.fetch_ingredients("100")
+
+				it "returns a recipes ingredients" do
+					expect(ingredients.count).to eq(7)
+				end
+
+				it "returns an ingredient name from recipe id" do
+					expect(ingredients.first["Name"]).to eq("Mayonnaise")
+				end
+			end
+		end
 	end
 end
