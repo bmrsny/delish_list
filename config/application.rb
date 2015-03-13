@@ -37,3 +37,9 @@ module DelishList
     config.active_record.raise_in_transactional_callbacks = true
   end
 end
+
+Twilio.configure do |config|
+	config.account_sid = ENV['TWILIO_SID']
+	config.auth_token = ENV['TWILIO_TOKEN'] 
+end
+

@@ -20,7 +20,7 @@
 			<% end  %>
 			</tbody>
 		</table>
-		<%= form_for (@shopping_list), url: text_me_path, method: :post do |f| %>
+		<%= form_for (@shopping_list), url: text_me_path(@shopping_list.id), method: :post do |f| %>
 			<%= f.hidden_field :text, value: @shopping_list.id  %>
 
 			<%= f.text_field :phone_number, placeholder: "Enter a phone number", required: true %>

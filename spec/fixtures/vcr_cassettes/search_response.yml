@@ -1,0 +1,669 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.bigoven.com/recipes?api_key=dvx763458nvGiC8cM7bHQYCPHT9KK12R&pg=1&rpp=40&title_kw=muffins
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - public, max-age=360
+      Content-Type:
+      - text/xml; charset=utf-8
+      Expires:
+      - Fri, 13 Mar 2015 03:28:23 GMT
+      Last-Modified:
+      - Fri, 13 Mar 2015 03:22:23 GMT
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnetmvc-Version:
+      - '5.0'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE,OPTIONS
+      Access-Control-Allow-Headers:
+      - Content-Type
+      Date:
+      - Fri, 13 Mar 2015 03:22:23 GMT
+      Content-Length:
+      - '8417'
+    body:
+      encoding: UTF-8
+      string: "<RecipeSearchResult xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\r\n  <ResultCount>3886</ResultCount>\r\n
+        \ <Results>\r\n    <RecipeInfo>\r\n      <RecipeID>334275</RecipeID>\r\n      <Title>Muffins</Title>\r\n
+        \     <Category>Bread</Category>\r\n      <Subcategory>Muffins</Subcategory>\r\n
+        \     <StarRating>0</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/muffins/334275</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/muffins-4.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/muffins-4.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1666591</UserID>\r\n
+        \       <UserName>Schoo118</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-09-05T02:54:33.37Z</CreationDate>\r\n
+        \     <MaxImageSquare>640</MaxImageSquare>\r\n      <TotalTries>7</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/muffins-4.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>267654</RecipeID>\r\n
+        \     <Title>Muffins</Title>\r\n      <Category>Bread</Category>\r\n      <Subcategory>Muffins</Subcategory>\r\n
+        \     <StarRating>0</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/muffins/267654</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/muffins.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/muffins.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1486443</UserID>\r\n
+        \       <UserName>Oscar860</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-04-15T20:16:55Z</CreationDate>\r\n
+        \     <MaxImageSquare>640</MaxImageSquare>\r\n      <TotalTries>2</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/muffins.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>156296</RecipeID>\r\n
+        \     <Title>Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Bread</Category>\r\n
+        \     <Subcategory>Muffins</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/muffins/156296</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>1</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>1127970</RecipeID>\r\n
+        \     <Title>Muffin</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category
+        />\r\n      <Subcategory />\r\n      <StarRating>0</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/muffin/1127970</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>2689706</UserID>\r\n
+        \       <UserName>Yo-eh</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>200</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2015-02-22T09:51:24.587Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>1127969</RecipeID>\r\n
+        \     <Title>Muffin</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category
+        />\r\n      <Subcategory />\r\n      <StarRating>0</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/muffin/1127969</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>2689706</UserID>\r\n
+        \       <UserName>Yo-eh</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>200</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2015-02-22T09:51:06.15Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>931691</RecipeID>\r\n
+        \     <Title>Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category
+        />\r\n      <Subcategory />\r\n      <StarRating>0</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/muffins/931691</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>2575935</UserID>\r\n
+        \       <UserName>sjlison</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>4</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate xsi:nil=\"true\"
+        />\r\n      <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>242171</RecipeID>\r\n
+        \     <Title>Muffins</Title>\r\n      <Cuisine />\r\n      <Category>Bread</Category>\r\n
+        \     <Subcategory>Muffins</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/muffins/242171</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1402289</UserID>\r\n
+        \       <UserName>Emondtm</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-02-04T23:27:37.627Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>1</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>156293</RecipeID>\r\n
+        \     <Title>Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Bread</Category>\r\n
+        \     <Subcategory>Muffins</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/muffins/156293</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>1</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>323293</RecipeID>\r\n
+        \     <Title>Muffins </Title>\r\n      <Cuisine>Country</Cuisine>\r\n      <Category>Breakfast</Category>\r\n
+        \     <Subcategory>Baked Goods</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/muffins/323293</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1646501</UserID>\r\n
+        \       <UserName>CrystalsRecipes</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-08-15T16:05:18.303Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>2</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>818138</RecipeID>\r\n
+        \     <Title>muffins</Title>\r\n      <Cuisine />\r\n      <Category>Breakfast</Category>\r\n
+        \     <Subcategory>Baked Goods</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/muffins/818138</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>2333310</UserID>\r\n
+        \       <UserName>Pamelii</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2014-03-04T19:43:46.477Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>156294</RecipeID>\r\n
+        \     <Title>Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Bread</Category>\r\n
+        \     <Subcategory>Muffins</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/muffins/156294</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>114021</RecipeID>\r\n
+        \     <Title>Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Bread</Category>\r\n
+        \     <Subcategory>Muffins</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/muffins/114021</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>497982</RecipeID>\r\n
+        \     <Title>Muffins</Title>\r\n      <Cuisine />\r\n      <Category>Breakfast</Category>\r\n
+        \     <Subcategory>Other Breakfast-Brunch</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/muffins/497982</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1653472</UserID>\r\n
+        \       <UserName>katieaydt</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/katieaydt.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-04-24T15:14:46.537Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>156297</RecipeID>\r\n
+        \     <Title>Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Bread</Category>\r\n
+        \     <Subcategory>Muffins</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/muffins/156297</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>1</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>270724</RecipeID>\r\n
+        \     <Title>Muffins</Title>\r\n      <Cuisine />\r\n      <Category>Breakfast</Category>\r\n
+        \     <Subcategory>Baked Goods</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/muffins/270724</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>889931</UserID>\r\n
+        \       <UserName>sewlady45</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>14</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-04-23T22:25:00.163Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>156295</RecipeID>\r\n
+        \     <Title>Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Bread</Category>\r\n
+        \     <Subcategory>Muffins</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/muffins/156295</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>100</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>203377</RecipeID>\r\n
+        \     <Title>Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Bread</Category>\r\n
+        \     <Subcategory>Quick Bread</Subcategory>\r\n      <StarRating>4</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/muffins/203377</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>721576</UserID>\r\n
+        \       <UserName>AngieProvost</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>8</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate xsi:nil=\"true\"
+        />\r\n      <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>2</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>114022</RecipeID>\r\n
+        \     <Title>Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Bread</Category>\r\n
+        \     <Subcategory>Muffins</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/muffins/114022</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>20</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>1</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>274627</RecipeID>\r\n
+        \     <Title>Stuffin' Muffin's</Title>\r\n      <Cuisine />\r\n      <Category>Bread</Category>\r\n
+        \     <Subcategory>Muffins</Subcategory>\r\n      <StarRating>4</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/stuffin-muffins/274627</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/stuffin-muffins.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/stuffin-muffins.jpg</ImageURL120>\r\n
+        \     <ReviewCount>4</ReviewCount>\r\n      <Poster>\r\n        <UserID>1428446</UserID>\r\n
+        \       <UserName>Kevinjohnson316</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-05-02T18:03:24.187Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>333</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/stuffin-muffins.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>160633</RecipeID>\r\n
+        \     <Title>Blueberry Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Breakfast</Category>\r\n      <Subcategory>Baked Goods</Subcategory>\r\n
+        \     <StarRating>2.66666666666667</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/blueberry-muffins/160633</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/blueberry-muffins-7.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/blueberry-muffins-7.jpg</ImageURL120>\r\n
+        \     <ReviewCount>3</ReviewCount>\r\n      <Poster>\r\n        <UserID>26386</UserID>\r\n
+        \       <UserName>radiantsahm</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/12010610181026386.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2006-02-24T14:49:21.677Z</CreationDate>\r\n
+        \     <MaxImageSquare>700</MaxImageSquare>\r\n      <TotalTries>35</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/blueberry-muffins-7.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>161553</RecipeID>\r\n
+        \     <Title>Breakfast Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Bread</Category>\r\n      <Subcategory>Muffins</Subcategory>\r\n
+        \     <StarRating>2.5</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/breakfast-muffins/161553</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/martha-stewarts-breakfast-muffins-2.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/martha-stewarts-breakfast-muffins-2.jpg</ImageURL120>\r\n
+        \     <ReviewCount>2</ReviewCount>\r\n      <Poster>\r\n        <UserID>30087</UserID>\r\n
+        \       <UserName>dale1shell</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/dale1shell.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2006-08-16T03:33:51.167Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>68</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/martha-stewarts-breakfast-muffins-2.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>160653</RecipeID>\r\n
+        \     <Title>Blueberry Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Bread</Category>\r\n      <Subcategory>Muffins</Subcategory>\r\n
+        \     <StarRating>4</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/blueberry-muffins/160653</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/blueberry-muffins-9.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/blueberry-muffins-9.jpg</ImageURL120>\r\n
+        \     <ReviewCount>2</ReviewCount>\r\n      <Poster>\r\n        <UserID>27487</UserID>\r\n
+        \       <UserName>heidim</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/18020612202227487.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2006-02-25T20:09:34.667Z</CreationDate>\r\n
+        \     <MaxImageSquare>700</MaxImageSquare>\r\n      <TotalTries>30</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/blueberry-muffins-9.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>160088</RecipeID>\r\n
+        \     <Title>Brownie Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>3.8</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/brownie-muffins/160088</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/brownie-muffins-2.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/brownie-muffins-2.jpg</ImageURL120>\r\n
+        \     <ReviewCount>5</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2005-11-25T03:42:39Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>102</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/brownie-muffins-2.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>169768</RecipeID>\r\n
+        \     <Title>Pizza Muffins</Title>\r\n      <Cuisine>Italian</Cuisine>\r\n
+        \     <Category>Appetizers</Category>\r\n      <Subcategory>Canapes and Bruschetta</Subcategory>\r\n
+        \     <StarRating>4</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/pizza-muffins/169768</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/pizza-muffins.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/pizza-muffins.jpg</ImageURL120>\r\n
+        \     <ReviewCount>6</ReviewCount>\r\n      <Poster>\r\n        <UserID>328939</UserID>\r\n
+        \       <UserName>chefjlv</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/chefjlv.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>24</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2009-01-22T22:25:57.607Z</CreationDate>\r\n
+        \     <MaxImageSquare>512</MaxImageSquare>\r\n      <TotalTries>233</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/pizza-muffins.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>176362</RecipeID>\r\n
+        \     <Title>Meatloaf Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Main Dish</Category>\r\n      <Subcategory>Meatloaf</Subcategory>\r\n
+        \     <StarRating>4.25</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/meatloaf-muffins/176362</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/meatloaf-muffins-2.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/meatloaf-muffins-2.jpg</ImageURL120>\r\n
+        \     <ReviewCount>8</ReviewCount>\r\n      <Poster>\r\n        <UserID>651279</UserID>\r\n
+        \       <UserName>TheKitchenWitch</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/211109112922651279.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2009-11-28T03:22:56.433Z</CreationDate>\r\n
+        \     <MaxImageSquare>700</MaxImageSquare>\r\n      <TotalTries>296</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/meatloaf-muffins-2.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>164062</RecipeID>\r\n
+        \     <Title>Cornmeal Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Bread</Category>\r\n      <Subcategory>Muffins</Subcategory>\r\n
+        \     <StarRating>4.09090909090909</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/cornmeal-muffins/164062</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/cornmeal-muffins-4.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/cornmeal-muffins-4.jpg</ImageURL120>\r\n
+        \     <ReviewCount>11</ReviewCount>\r\n      <Poster>\r\n        <UserID>29843</UserID>\r\n
+        \       <UserName>sgrishka</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/19010711162029843.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2007-11-10T07:21:19Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>353</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/cornmeal-muffins-4.jpg
+        \                      </HeroPhotoUrl>\r\n    </RecipeInfo>\r\n    <RecipeInfo>\r\n
+        \     <RecipeID>126815</RecipeID>\r\n      <Title>Strawberry Muffins</Title>\r\n
+        \     <Cuisine>American</Cuisine>\r\n      <Category>Bread</Category>\r\n
+        \     <Subcategory>Muffins</Subcategory>\r\n      <StarRating>4.54545454545455</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/strawberry-muffins/126815</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/rs/256/strawberry-muffins-8.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://images.bigoven.com/image/upload/t_recipe-120/strawberry-muffins-8.jpg</ImageURL120>\r\n
+        \     <ReviewCount>11</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>1280</MaxImageSquare>\r\n      <TotalTries>536</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/v1423613561/strawberry-muffins-8.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>187316</RecipeID>\r\n
+        \     <Title>Donut Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Breakfast</Category>\r\n      <Subcategory>Baked Goods</Subcategory>\r\n
+        \     <StarRating>4.625</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/donut-muffins/187316</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/donut-muffins.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/donut-muffins.jpg</ImageURL120>\r\n
+        \     <ReviewCount>8</ReviewCount>\r\n      <Poster>\r\n        <UserID>977458</UserID>\r\n
+        \       <UserName>smobrien</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>30</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2010-11-06T20:11:16Z</CreationDate>\r\n
+        \     <MaxImageSquare>320</MaxImageSquare>\r\n      <TotalTries>244</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/donut-muffins.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>167997</RecipeID>\r\n
+        \     <Title>Applesauce Muffins</Title>\r\n      <Cuisine>Home cooking</Cuisine>\r\n
+        \     <Category>Bread</Category>\r\n      <Subcategory>Muffins</Subcategory>\r\n
+        \     <StarRating>4.28571428571429</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/applesauce-muffins/167997</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/applesauce-muffins-2.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/applesauce-muffins-2.jpg</ImageURL120>\r\n
+        \     <ReviewCount>7</ReviewCount>\r\n      <Poster>\r\n        <UserID>-1</UserID>\r\n
+        \       <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2008-11-24T05:06:13.86Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>107</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/applesauce-muffins-2.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>174841</RecipeID>\r\n
+        \     <Title>Blueberry Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Breakfast</Category>\r\n      <Subcategory>Baked Goods</Subcategory>\r\n
+        \     <StarRating>4.72727272727273</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/blueberry-muffins/174841</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/blueberry-muffins-30.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/blueberry-muffins-30.jpg</ImageURL120>\r\n
+        \     <ReviewCount>11</ReviewCount>\r\n      <Poster>\r\n        <UserID>518748</UserID>\r\n
+        \       <UserName>Astro-Chef</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/astro-chef.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>8</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2009-09-28T09:59:00.06Z</CreationDate>\r\n
+        \     <MaxImageSquare>640</MaxImageSquare>\r\n      <TotalTries>238</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/blueberry-muffins-30.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>163231</RecipeID>\r\n
+        \     <Title>Cheesecake Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Desserts - Other</Subcategory>\r\n
+        \     <StarRating>3.66666666666667</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/cheesecake-muffins/163231</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/cheesecake-muffins-2.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/cheesecake-muffins-2.jpg</ImageURL120>\r\n
+        \     <ReviewCount>4</ReviewCount>\r\n      <Poster>\r\n        <UserID>42413</UserID>\r\n
+        \       <UserName>lizmari</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/lizmari.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2007-05-25T15:49:14.487Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>200</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/cheesecake-muffins-2.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>90924</RecipeID>\r\n
+        \     <Title>Gingerbread Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Bread</Category>\r\n      <Subcategory>Muffins</Subcategory>\r\n
+        \     <StarRating>4.66666666666667</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/gingerbread-muffins/90924</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/gingerbread-muffins-2.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/gingerbread-muffins-2.jpg</ImageURL120>\r\n
+        \     <ReviewCount>3</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>4</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>700</MaxImageSquare>\r\n      <TotalTries>56</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/gingerbread-muffins-2.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>176714</RecipeID>\r\n
+        \     <Title>Blueberry Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Bread</Category>\r\n      <Subcategory>Muffins</Subcategory>\r\n
+        \     <StarRating>2</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/blueberry-muffins/176714</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/blueberry-muffins-13.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/blueberry-muffins-13.jpg</ImageURL120>\r\n
+        \     <ReviewCount>3</ReviewCount>\r\n      <Poster>\r\n        <UserID>578051</UserID>\r\n
+        \       <UserName>TheKevinJohnson</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/thekevinjohnson.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2009-12-08T16:25:03.963Z</CreationDate>\r\n
+        \     <MaxImageSquare>700</MaxImageSquare>\r\n      <TotalTries>85</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/blueberry-muffins-13.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>198464</RecipeID>\r\n
+        \     <Title>Banana Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>5</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/banana-muffins/198464</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/banana-muffins-8.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/banana-muffins-8.jpg</ImageURL120>\r\n
+        \     <ReviewCount>3</ReviewCount>\r\n      <Poster>\r\n        <UserID>1159600</UserID>\r\n
+        \       <UserName>Jankenit</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>8</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2011-05-23T16:15:54.823Z</CreationDate>\r\n
+        \     <MaxImageSquare>1280</MaxImageSquare>\r\n      <TotalTries>101</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/banana-muffins-8.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>172471</RecipeID>\r\n
+        \     <Title>Snickerdoodle Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cookies and Bars</Subcategory>\r\n
+        \     <StarRating>5</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/snickerdoodle-muffins/172471</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/snickerdoodle-muffins-4.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/snickerdoodle-muffins-4.jpg</ImageURL120>\r\n
+        \     <ReviewCount>3</ReviewCount>\r\n      <Poster>\r\n        <UserID>84128</UserID>\r\n
+        \       <UserName>fireb4smoke</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/24020807002984128.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2009-06-21T23:30:22.16Z</CreationDate>\r\n
+        \     <MaxImageSquare>1280</MaxImageSquare>\r\n      <TotalTries>96</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/snickerdoodle-muffins-4.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>172934</RecipeID>\r\n
+        \     <Title>Blueberry Muffins</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Bread</Category>\r\n      <Subcategory>Muffins</Subcategory>\r\n
+        \     <StarRating>4.60714285714286</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/blueberry-muffins/172934</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/blueberry-muffins-10.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/blueberry-muffins-10.jpg</ImageURL120>\r\n
+        \     <ReviewCount>28</ReviewCount>\r\n      <Poster>\r\n        <UserID>29843</UserID>\r\n
+        \       <UserName>sgrishka</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/19010711162029843.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2009-07-09T07:31:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>700</MaxImageSquare>\r\n      <TotalTries>1041</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/blueberry-muffins-10.jpg
+        \                    </HeroPhotoUrl>\r\n    </RecipeInfo>\r\n    <RecipeInfo>\r\n
+        \     <RecipeID>370083</RecipeID>\r\n      <Title>Cranberry Muffins</Title>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>0</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/cranberry-muffins/370083</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/cranberry-muffins-3.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/cranberry-muffins-3.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1164127</UserID>\r\n
+        \       <UserName>EricaAuld</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/ericaauld.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-11-09T08:45:46Z</CreationDate>\r\n
+        \     <MaxImageSquare>640</MaxImageSquare>\r\n      <TotalTries>15</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/cranberry-muffins-3.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>595440</RecipeID>\r\n
+        \     <Title>Banana Muffins</Title>\r\n      <Category>Breakfast</Category>\r\n
+        \     <Subcategory>Other Breakfast-Brunch</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/banana-muffins/595440</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/banana-muffins-15.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/banana-muffins-15.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1817449</UserID>\r\n
+        \       <UserName>Ninicoff</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/ninicoff.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-08-03T21:53:55Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>5</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/banana-muffins-15.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>598706</RecipeID>\r\n
+        \     <Title>Blueberry Muffin</Title>\r\n      <Cuisine />\r\n      <Category>Breakfast</Category>\r\n
+        \     <Subcategory>Baked Goods</Subcategory>\r\n      <StarRating>1</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/blueberry-muffin/598706</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/blueberry-muffin-2.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/blueberry-muffin-2.jpg</ImageURL120>\r\n
+        \     <ReviewCount>1</ReviewCount>\r\n      <Poster>\r\n        <UserID>13208</UserID>\r\n
+        \       <UserName>TheresaH</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-08-07T15:45:35.037Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>1</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/blueberry-muffin-2.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>302783</RecipeID>\r\n
+        \     <Title>Monkey Muffins</Title>\r\n      <Cuisine />\r\n      <Category>Breakfast</Category>\r\n
+        \     <Subcategory>Baked Goods</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/monkey-muffins/302783</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/monkey-muffins-4.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/monkey-muffins-4.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1593396</UserID>\r\n
+        \       <UserName>Plankton10a</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>22</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-07-02T20:30:23.127Z</CreationDate>\r\n
+        \     <MaxImageSquare>320</MaxImageSquare>\r\n      <TotalTries>5</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/monkey-muffins-4.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n  </Results>\r\n</RecipeSearchResult>"
+    http_version: 
+  recorded_at: Fri, 13 Mar 2015 03:22:21 GMT
+recorded_with: VCR 2.9.3

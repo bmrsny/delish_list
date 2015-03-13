@@ -59,3 +59,8 @@ group :development, :test do
 	gem 'selenium-webdriver'  
 end
 
+group :test do
+	gem 'webmock'
+	gem 'vcr'
+end
+

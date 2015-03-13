@@ -1,0 +1,648 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.bigoven.com/recipes?api_key=dvx763458nvGiC8cM7bHQYCPHT9KK12R&pg=1&rpp=40&title_kw=brownies
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - public, max-age=360
+      Content-Type:
+      - text/xml; charset=utf-8
+      Expires:
+      - Thu, 12 Mar 2015 22:42:19 GMT
+      Last-Modified:
+      - Thu, 12 Mar 2015 22:36:19 GMT
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnetmvc-Version:
+      - '5.0'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE,OPTIONS
+      Access-Control-Allow-Headers:
+      - Content-Type
+      Date:
+      - Thu, 12 Mar 2015 22:36:18 GMT
+      Content-Length:
+      - '7264'
+    body:
+      encoding: UTF-8
+      string: "<RecipeSearchResult xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\r\n  <ResultCount>2293</ResultCount>\r\n
+        \ <Results>\r\n    <RecipeInfo>\r\n      <RecipeID>875132</RecipeID>\r\n      <Title>Brownies</Title>\r\n
+        \     <Cuisine>américaine</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Chocolate</Subcategory>\r\n      <StarRating>2</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/875132</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/brownies-24.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/brownies-24.jpg</ImageURL120>\r\n
+        \     <ReviewCount>1</ReviewCount>\r\n      <Poster>\r\n        <UserID>2525950</UserID>\r\n
+        \       <UserName>lguitard</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/lguitard.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>4</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2014-06-02T01:30:28.87Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>30</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/brownies-24.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>586891</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Category>Desserts</Category>\r\n      <Subcategory
+        />\r\n      <StarRating>3.57142857142857</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/brownies/586891</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/brownies-26.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/brownies-26.jpg</ImageURL120>\r\n
+        \     <ReviewCount>7</ReviewCount>\r\n      <Poster>\r\n        <UserID>1651189</UserID>\r\n
+        \       <UserName>belindaphelps</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/belindaphelps.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-07-24T23:19:17Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>318</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/brownies-26.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>389579</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cookies and Bars</Subcategory>\r\n      <StarRating>4</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/389579</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/brownies-18.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/brownies-18.jpg</ImageURL120>\r\n
+        \     <ReviewCount>4</ReviewCount>\r\n      <Poster>\r\n        <UserID>1666591</UserID>\r\n
+        \       <UserName>Schoo118</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>6</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-12-07T02:53:54.997Z</CreationDate>\r\n
+        \     <MaxImageSquare>640</MaxImageSquare>\r\n      <TotalTries>65</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/brownies-18.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>168019</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>Dessert</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cakes</Subcategory>\r\n      <StarRating>3.6</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/168019</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/brownies-16.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/brownies-16.jpg</ImageURL120>\r\n
+        \     <ReviewCount>5</ReviewCount>\r\n      <Poster>\r\n        <UserID>232305</UserID>\r\n
+        \       <UserName>gleepart</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/241108105916232305.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>8</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2008-11-24T16:40:46.887Z</CreationDate>\r\n
+        \     <MaxImageSquare>640</MaxImageSquare>\r\n      <TotalTries>51</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/brownies-16.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>1132177</RecipeID>\r\n
+        \     <Title>Brownies </Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cookies and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/1132177</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/brownies-34.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/brownies-34.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>2768022</UserID>\r\n
+        \       <UserName>Godsgirlfromdixie</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/v1424740958/avatar/f1q0ibncx1hnhrlnehdl.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2015-02-25T19:29:31.843Z</CreationDate>\r\n
+        \     <MaxImageSquare>512</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://redirect.bigoven.com/pics/brownies-34.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>395226</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Chocolate</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/395226</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/brownies-8.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/brownies-8.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1256357</UserID>\r\n
+        \       <UserName>44Popcorn</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>16</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-12-16T05:49:23.673Z</CreationDate>\r\n
+        \     <MaxImageSquare>1024</MaxImageSquare>\r\n      <TotalTries>11</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/brownies-8.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>660506</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Category>Desserts</Category>\r\n      <Subcategory>Cookies
+        and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/brownies/660506</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/brownies-17.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/brownies-17.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>2097004</UserID>\r\n
+        \       <UserName>amosgold</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-10-11T17:11:35Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://redirect.bigoven.com/pics/brownies-17.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>219060</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Chocolate</Subcategory>\r\n      <StarRating>5</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/219060</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/brownies.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/brownies.jpg</ImageURL120>\r\n
+        \     <ReviewCount>1</ReviewCount>\r\n      <Poster>\r\n        <UserID>1329760</UserID>\r\n
+        \       <UserName>Jensten</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/jensten.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2011-11-12T19:24:04.42Z</CreationDate>\r\n
+        \     <MaxImageSquare>640</MaxImageSquare>\r\n      <TotalTries>23</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/brownies.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>444122</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Category>Desserts</Category>\r\n      <Subcategory>Cookies
+        and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/brownies/444122</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/brownies-9.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/brownies-9.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1679912</UserID>\r\n
+        \       <UserName>debbysalmon</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/debbysalmon.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>15</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-02-08T05:56:55Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>7</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/brownies-9.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>391185</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine />\r\n      <Category>Breakfast</Category>\r\n
+        \     <Subcategory>Other Breakfast-Brunch</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/391185</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/brownies-7.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/brownies-7.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1794632</UserID>\r\n
+        \       <UserName>karmukis</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>10</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-12-09T14:09:32.547Z</CreationDate>\r\n
+        \     <MaxImageSquare>512</MaxImageSquare>\r\n      <TotalTries>1</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/brownies-7.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>150057</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Chocolate</Subcategory>\r\n      <StarRating>2</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/150057</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>1</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>182461</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category
+        />\r\n      <Subcategory />\r\n      <StarRating>3</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/brownies/182461</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>1</ReviewCount>\r\n      <Poster>\r\n        <UserID>138587</UserID>\r\n
+        \       <UserName>dlongenderfer</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>24</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2010-06-05T23:04:33.643Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://mda.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>179007</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category
+        />\r\n      <Subcategory />\r\n      <StarRating>3</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/brownies/179007</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>1</ReviewCount>\r\n      <Poster>\r\n        <UserID>753354</UserID>\r\n
+        \       <UserName>dvarela</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2010-02-06T15:20:17Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://mda.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>197807</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cookies and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/197807</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1043766</UserID>\r\n
+        \       <UserName>SpockSedai</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/spocksedai.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>16</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2011-05-11T16:11:01.777Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>4</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>46477</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cookies and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/46477</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>2</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>452498</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>Dessert</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Chocolate</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/452498</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>992184</UserID>\r\n
+        \       <UserName>Xandertepes</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>32</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-02-17T21:16:34.307Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>354042</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cookies and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/354042</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1730125</UserID>\r\n
+        \       <UserName>Smithnesha</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-10-15T03:28:17.633Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>315872</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cookies and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/315872</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1097048</UserID>\r\n
+        \       <UserName>mollieb</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-07-30T21:40:36.027Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>230032</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Desserts - Other</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/230032</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>983162</UserID>\r\n
+        \       <UserName>NJbrowneyedgirl</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2011-12-29T18:09:31.823Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>761822</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cakes</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/761822</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>2298455</UserID>\r\n
+        \       <UserName>liz54</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>16</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2014-01-11T03:55:27.207Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>741262</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cookies and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/741262</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>2306040</UserID>\r\n
+        \       <UserName>BobnHolli</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/bobnholli.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-12-30T01:53:19.49Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>483755</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cakes</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/483755</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1960344</UserID>\r\n
+        \       <UserName>mindandbody</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>16</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-04-01T16:41:27.303Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>498465</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>Dessert</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Chocolate</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/498465</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1803348</UserID>\r\n
+        \       <UserName>wren410</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/wren410.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>9</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-04-25T01:57:14.58Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>931217</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category
+        />\r\n      <Subcategory />\r\n      <StarRating>0</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/brownies/931217</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>2575935</UserID>\r\n
+        \       <UserName>sjlison</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>4</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate xsi:nil=\"true\"
+        />\r\n      <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>150058</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Desserts - Other</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/150058</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>6</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>46478</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cookies and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/46478</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://mda.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>46472</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cookies and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/46472</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>24</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>1</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>408261</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cookies and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/408261</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>25647</UserID>\r\n
+        \       <UserName>hollydrummergirl</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>4</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-12-31T00:44:18.923Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>231371</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Chocolate</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/231371</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>987247</UserID>\r\n
+        \       <UserName>Forbes1101</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-01-01T21:33:53.363Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>483527</RecipeID>\r\n
+        \     <Title>Brownies </Title>\r\n      <Cuisine />\r\n      <Category>Bread</Category>\r\n
+        \     <Subcategory>Non-Bread Machine</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/483527</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1648936</UserID>\r\n
+        \       <UserName>Janedave07</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>36</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-04-01T05:44:48.373Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>1</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>541247</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cookies and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/541247</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1744271</UserID>\r\n
+        \       <UserName>FORESTRIDGE</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-06-03T19:58:47.057Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>435371</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Desserts - Other</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/435371</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1814763</UserID>\r\n
+        \       <UserName>Tamikay82</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-01-27T18:19:21.07Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>150056</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Chocolate</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/150056</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>9</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>187290</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cakes</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/187290</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>989989</UserID>\r\n
+        \       <UserName>gmb468</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>24</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2010-11-06T02:08:37.413Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>46476</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cookies and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/46476</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>16</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>3</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://mda.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>46470</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cookies and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/46470</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>46469</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cakes</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/46469</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>36</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>668009</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine>Dessert</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cookies and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/668009</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>2179190</UserID>\r\n
+        \       <UserName>patriciaanntayloryonce</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/patriciaanntayloryonce.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>28</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-10-19T01:14:01.587Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>536036</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cookies and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/536036</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>2030310</UserID>\r\n
+        \       <UserName>dlucas72468</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>10</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-05-30T00:40:21.147Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>515749</RecipeID>\r\n
+        \     <Title>Brownies</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cookies and Bars</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/brownies/515749</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>820904</UserID>\r\n
+        \       <UserName>cslipp</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-05-18T01:37:31.187Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n  </Results>\r\n</RecipeSearchResult>"
+    http_version: 
+  recorded_at: Thu, 12 Mar 2015 22:36:16 GMT
+recorded_with: VCR 2.9.3

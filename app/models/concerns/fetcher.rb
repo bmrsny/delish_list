@@ -38,18 +38,4 @@ class Fetcher
 		#recipe["Recipe"]["Ingredients"]["Ingredients"]
 		recipe["Ingredients"]["Ingredient"]
 	end
-
-	#def fetch_recipe_ingredients_by(id)
-	#	recipe = single_recipe(id)
-	#	recipe["Ingredient"]
-	#end
-
-#	def create_or_find_recipes(keyword)
-#			response = search_response(keyword) 
-#			response.map do |recipe| 
-#				 new_recipe = Recipe.find_or_create_by(title: recipe["Title"], 
-#															 	recipe_key: recipe["RecipeID"],
-#															  image_url: recipe["ImageURL"])
-#			end
-#	end
 end

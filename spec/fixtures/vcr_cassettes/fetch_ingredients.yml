@@ -1,0 +1,142 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.bigoven.com/recipe/100?api_key=dvx763458nvGiC8cM7bHQYCPHT9KK12R
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/xml; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnetmvc-Version:
+      - '5.0'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE,OPTIONS
+      Access-Control-Allow-Headers:
+      - Content-Type
+      Date:
+      - Fri, 13 Mar 2015 03:13:01 GMT
+      Content-Length:
+      - '2525'
+    body:
+      encoding: UTF-8
+      string: "<Recipe xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\r\n
+        \ <RecipeID>100</RecipeID>\r\n  <Title>Killer Bread</Title>\r\n  <Description>NOTE:
+        This is a test recipe on BigOven, used by the team to test the platform. Please
+        ignore the various comments, etc. Thank you!</Description>\r\n  <Category>Bread</Category>\r\n
+        \ <Subcategory>Sourdough and Starters</Subcategory>\r\n  <PrimaryIngredient>Grains</PrimaryIngredient>\r\n
+        \ <StarRating>3</StarRating>\r\n  <WebURL>http://www.bigoven.com/recipe/killer-bread/100</WebURL>\r\n
+        \ <ImageURL>http://redirect.bigoven.com/pics/rs/640/killer-bread-7.jpg</ImageURL>\r\n
+        \ <ReviewCount>2</ReviewCount>\r\n  <MedalCount>0</MedalCount>\r\n  <FavoriteCount>8</FavoriteCount>\r\n
+        \ <Poster>\r\n    <UserID>0</UserID>\r\n    <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \   <IsPremium>false</IsPremium>\r\n    <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \   <PremiumExpiryDate xsi:nil=\"true\" />\r\n    <MemberSince xsi:nil=\"true\"
+        />\r\n    <IsUsingRecurly>false</IsUsingRecurly>\r\n  </Poster>\r\n  <Ingredients>\r\n
+        \   <Ingredient>\r\n      <IngredientID>1044</IngredientID>\r\n      <DisplayIndex>0</DisplayIndex>\r\n
+        \     <IsHeading>false</IsHeading>\r\n      <Name>Mayonnaise</Name>\r\n      <HTMLName>&lt;a
+        href=\"http://www.bigoven.com/article/recipe/mayonnaise\" class=\"glosslink\"&gt;Mayonnaise&lt;/a&gt;</HTMLName>\r\n
+        \     <Quantity>1</Quantity>\r\n      <DisplayQuantity>1</DisplayQuantity>\r\n
+        \     <Unit>c</Unit>\r\n      <MetricQuantity>237</MetricQuantity>\r\n      <MetricDisplayQuantity>237</MetricDisplayQuantity>\r\n
+        \     <MetricUnit>ml</MetricUnit>\r\n      <IngredientInfo>\r\n        <Name>Mayonnaise</Name>\r\n
+        \       <Department>Condiments</Department>\r\n      </IngredientInfo>\r\n
+        \     <IsLinked>true</IsLinked>\r\n    </Ingredient>\r\n    <Ingredient>\r\n
+        \     <IngredientID>1045</IngredientID>\r\n      <DisplayIndex>1</DisplayIndex>\r\n
+        \     <IsHeading>false</IsHeading>\r\n      <Name>Grated Parmesan</Name>\r\n
+        \     <HTMLName>Grated &lt;a href=\"http://www.bigoven.com/article/recipe/parmesan\"
+        class=\"glosslink\"&gt;Parmesan&lt;/a&gt;</HTMLName>\r\n      <Quantity>1</Quantity>\r\n
+        \     <DisplayQuantity>1</DisplayQuantity>\r\n      <Unit>c</Unit>\r\n      <MetricQuantity>237</MetricQuantity>\r\n
+        \     <MetricDisplayQuantity>237</MetricDisplayQuantity>\r\n      <MetricUnit>ml</MetricUnit>\r\n
+        \     <PreparationNotes>fresh</PreparationNotes>\r\n      <IngredientInfo>\r\n
+        \       <Name>Grated Parmesan</Name>\r\n        <Department>Cheeses</Department>\r\n
+        \     </IngredientInfo>\r\n      <IsLinked>true</IsLinked>\r\n    </Ingredient>\r\n
+        \   <Ingredient>\r\n      <IngredientID>1046</IngredientID>\r\n      <DisplayIndex>2</DisplayIndex>\r\n
+        \     <IsHeading>false</IsHeading>\r\n      <Name>Garlic</Name>\r\n      <HTMLName>&lt;a
+        href=\"http://www.bigoven.com/article/recipe/garlic\" class=\"glosslink\"&gt;Garlic&lt;/a&gt;</HTMLName>\r\n
+        \     <Quantity>1</Quantity>\r\n      <DisplayQuantity>1</DisplayQuantity>\r\n
+        \     <Unit>clove</Unit>\r\n      <MetricQuantity>1</MetricQuantity>\r\n      <MetricDisplayQuantity>1</MetricDisplayQuantity>\r\n
+        \     <MetricUnit>clove</MetricUnit>\r\n      <PreparationNotes>minced (up
+        to 1 1/2 cloves)</PreparationNotes>\r\n      <IngredientInfo>\r\n        <Name>Garlic</Name>\r\n
+        \       <Department>Produce</Department>\r\n      </IngredientInfo>\r\n      <IsLinked>true</IsLinked>\r\n
+        \   </Ingredient>\r\n    <Ingredient>\r\n      <IngredientID>1047</IngredientID>\r\n
+        \     <DisplayIndex>3</DisplayIndex>\r\n      <IsHeading>false</IsHeading>\r\n
+        \     <Name>Sourdough bread</Name>\r\n      <HTMLName>Sourdough bread</HTMLName>\r\n
+        \     <Quantity>1</Quantity>\r\n      <DisplayQuantity>1</DisplayQuantity>\r\n
+        \     <Unit>lb</Unit>\r\n      <MetricQuantity>0.45359237</MetricQuantity>\r\n
+        \     <MetricDisplayQuantity>0.45</MetricDisplayQuantity>\r\n      <MetricUnit>kg</MetricUnit>\r\n
+        \     <PreparationNotes>halved</PreparationNotes>\r\n      <IngredientInfo>\r\n
+        \       <Name>Sourdough bread</Name>\r\n        <Department>Breads</Department>\r\n
+        \     </IngredientInfo>\r\n      <IsLinked>true</IsLinked>\r\n    </Ingredient>\r\n
+        \   <Ingredient>\r\n      <IngredientID>1048</IngredientID>\r\n      <DisplayIndex>4</DisplayIndex>\r\n
+        \     <IsHeading>false</IsHeading>\r\n      <Name>Butter</Name>\r\n      <HTMLName>&lt;a
+        href=\"http://www.bigoven.com/article/recipe/butter\" class=\"glosslink\"&gt;Butter&lt;/a&gt;</HTMLName>\r\n
+        \     <Quantity>1</Quantity>\r\n      <MetricQuantity>0</MetricQuantity>\r\n
+        \     <MetricDisplayQuantity />\r\n      <MetricUnit />\r\n      <IngredientInfo>\r\n
+        \       <Name>Butter</Name>\r\n        <Department>Dairy</Department>\r\n
+        \     </IngredientInfo>\r\n      <IsLinked>true</IsLinked>\r\n    </Ingredient>\r\n
+        \   <Ingredient>\r\n      <IngredientID>1049</IngredientID>\r\n      <DisplayIndex>5</DisplayIndex>\r\n
+        \     <IsHeading>false</IsHeading>\r\n      <Name>Fresh Basil</Name>\r\n      <HTMLName>Fresh
+        &lt;a href=\"http://www.bigoven.com/article/recipe/basil\" class=\"glosslink\"&gt;Basil&lt;/a&gt;</HTMLName>\r\n
+        \     <Quantity>2</Quantity>\r\n      <DisplayQuantity>2</DisplayQuantity>\r\n
+        \     <Unit>ts</Unit>\r\n      <MetricQuantity>10</MetricQuantity>\r\n      <MetricDisplayQuantity>10</MetricDisplayQuantity>\r\n
+        \     <MetricUnit>ml</MetricUnit>\r\n      <PreparationNotes>finely chopped</PreparationNotes>\r\n
+        \     <IngredientInfo>\r\n        <Name>Fresh Basil</Name>\r\n        <Department>Produce</Department>\r\n
+        \     </IngredientInfo>\r\n      <IsLinked>true</IsLinked>\r\n    </Ingredient>\r\n
+        \   <Ingredient>\r\n      <IngredientID>1050</IngredientID>\r\n      <DisplayIndex>6</DisplayIndex>\r\n
+        \     <IsHeading>false</IsHeading>\r\n      <Name>Dried basil</Name>\r\n      <HTMLName>Dried
+        &lt;a href=\"http://www.bigoven.com/article/recipe/basil\" class=\"glosslink\"&gt;basil&lt;/a&gt;</HTMLName>\r\n
+        \     <Quantity>2</Quantity>\r\n      <DisplayQuantity>2</DisplayQuantity>\r\n
+        \     <Unit>ts</Unit>\r\n      <MetricQuantity>10</MetricQuantity>\r\n      <MetricDisplayQuantity>10</MetricDisplayQuantity>\r\n
+        \     <MetricUnit>ml</MetricUnit>\r\n      <IngredientInfo>\r\n        <Name>Dried
+        basil</Name>\r\n        <Department>Spices</Department>\r\n      </IngredientInfo>\r\n
+        \     <IsLinked>true</IsLinked>\r\n    </Ingredient>\r\n  </Ingredients>\r\n
+        \ <Instructions>Preheat broiler.    Mix mayonnaise, Parmesan cheese and garlic
+        in a large bowl to blend.\r\n\r\nArrange bread, cut side up on a large cookie
+        sheet.   Butter bread. Broil until crisp and brown.\r\n\r\nSpread Parmesan
+        mixture over cut sides of bread.  Broil until top is puffed and golden brown.
+        Sprinkle with basil. Cut into wedges and serve. </Instructions>\r\n  <YieldNumber>12</YieldNumber>\r\n
+        \ <YieldUnit>Servings</YieldUnit>\r\n  <TotalMinutes>0</TotalMinutes>\r\n
+        \ <ActiveMinutes>0</ActiveMinutes>\r\n  <NutritionInfo>\r\n    <SingularYieldUnit>Paid
+        API plan required for nutrition.</SingularYieldUnit>\r\n    <TotalCalories>0</TotalCalories>\r\n
+        \   <TotalFat>0</TotalFat>\r\n    <CaloriesFromFat>0</CaloriesFromFat>\r\n
+        \   <TotalFatPct>0</TotalFatPct>\r\n    <SatFat>0</SatFat>\r\n    <SatFatPct>0</SatFatPct>\r\n
+        \   <MonoFat>0</MonoFat>\r\n    <PolyFat>0</PolyFat>\r\n    <TransFat>0</TransFat>\r\n
+        \   <Cholesterol>0</Cholesterol>\r\n    <CholesterolPct>0</CholesterolPct>\r\n
+        \   <Sodium>0</Sodium>\r\n    <SodiumPct>0</SodiumPct>\r\n    <Potassium>0</Potassium>\r\n
+        \   <PotassiumPct>0</PotassiumPct>\r\n    <TotalCarbs>0</TotalCarbs>\r\n    <TotalCarbsPct>0</TotalCarbsPct>\r\n
+        \   <DietaryFiber>0</DietaryFiber>\r\n    <DietaryFiberPct>0</DietaryFiberPct>\r\n
+        \   <Sugar>0</Sugar>\r\n    <Protein>0</Protein>\r\n    <ProteinPct>0</ProteinPct>\r\n
+        \ </NutritionInfo>\r\n  <IsPrivate xsi:nil=\"true\" />\r\n  <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \ <LastModified>2015-02-24T19:10:29.67Z</LastModified>\r\n  <IsBookmark>false</IsBookmark>\r\n
+        \ <BookmarkSiteLogo />\r\n  <IsRecipeScan xsi:nil=\"true\" />\r\n  <MenuCount>0</MenuCount>\r\n
+        \ <NotesCount>1</NotesCount>\r\n  <AdTags>simplypotatoes15</AdTags>\r\n  <AllCategoriesText>bread</AllCategoriesText>\r\n
+        \ <IsSponsored>false</IsSponsored>\r\n  <VariantOfRecipeID xsi:nil=\"true\"
+        />\r\n  <Collection />\r\n  <AdminBoost>200</AdminBoost>\r\n  <VerifiedDateTime>2012-05-18T21:04:20Z</VerifiedDateTime>\r\n
+        \ <MaxImageSquare xsi:nil=\"true\" />\r\n  <ImageSquares />\r\n  <HeroPhotoUrl>http://images.bigoven.com/image/upload/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \ <VerifiedByClass>editor</VerifiedByClass>\r\n</Recipe>"
+    http_version: 
+  recorded_at: Fri, 13 Mar 2015 03:12:59 GMT
+recorded_with: VCR 2.9.3

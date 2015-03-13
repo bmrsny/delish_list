@@ -1,0 +1,685 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.bigoven.com/recipes?api_key=dvx763458nvGiC8cM7bHQYCPHT9KK12R&pg=1&rpp=40&title_kw=cupcakes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - public, max-age=360
+      Content-Type:
+      - text/xml; charset=utf-8
+      Expires:
+      - Fri, 13 Mar 2015 02:53:09 GMT
+      Last-Modified:
+      - Fri, 13 Mar 2015 02:47:09 GMT
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/8.0
+      X-Aspnetmvc-Version:
+      - '5.0'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE,OPTIONS
+      Access-Control-Allow-Headers:
+      - Content-Type
+      Date:
+      - Fri, 13 Mar 2015 02:47:09 GMT
+      Content-Length:
+      - '9865'
+    body:
+      encoding: UTF-8
+      string: "<RecipeSearchResult xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"
+        xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">\r\n  <ResultCount>916</ResultCount>\r\n
+        \ <Results>\r\n    <RecipeInfo>\r\n      <RecipeID>385715</RecipeID>\r\n      <Title>Cupcakes</Title>\r\n
+        \     <Cuisine />\r\n      <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>0</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/cupcakes/385715</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1338520</UserID>\r\n
+        \       <UserName>Dsawatsky</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-12-01T01:20:26.887Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>1</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>443676</RecipeID>\r\n
+        \     <Title>Cupcakes</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cakes</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/cupcakes/443676</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1484078</UserID>\r\n
+        \       <UserName>kellybgrimsley</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/kellybgrimsley.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>24</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-02-07T16:22:32.923Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>918470</RecipeID>\r\n
+        \     <Title>cupcakes</Title>\r\n      <Cuisine>American</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cakes</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/cupcakes/918470</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>2057464</UserID>\r\n
+        \       <UserName>eriktasker9</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2014-08-05T10:28:08.833Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>782820</RecipeID>\r\n
+        \     <Title>Cupcakes </Title>\r\n      <Cuisine>British </Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cakes</Subcategory>\r\n      <StarRating>5</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/cupcakes/782820</WebURL>\r\n      <ImageURL>http://redirect.bigoven.com/pics/recipe-no-image.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/recipe-no-image.jpg</ImageURL120>\r\n
+        \     <ReviewCount>1</ReviewCount>\r\n      <Poster>\r\n        <UserID>2372013</UserID>\r\n
+        \       <UserName>pip_williams_37</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/pip_williams_37.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>16</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2014-01-28T19:41:23.423Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>1</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://media.bigoven.com/pics/recipe-no-image.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>658005</RecipeID>\r\n
+        \     <Title>Coconut Cupcakes</Title>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cakes</Subcategory>\r\n      <StarRating>5</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/coconut-cupcakes/658005</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/coconut-cupcakes-13.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/coconut-cupcakes-13.jpg</ImageURL120>\r\n
+        \     <ReviewCount>1</ReviewCount>\r\n      <Poster>\r\n        <UserID>2064036</UserID>\r\n
+        \       <UserName>FoodNetworkRecipes</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/foodnetworkrecipes.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark>true</IsBookmark>\r\n      <YieldNumber>18</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-10-09T02:08:58Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>74</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/coconut-cupcakes-13.jpg
+        \                     </HeroPhotoUrl>\r\n    </RecipeInfo>\r\n    <RecipeInfo>\r\n
+        \     <RecipeID>5464</RecipeID>\r\n      <Title>Pineapple Cupcakes</Title>\r\n
+        \     <Cuisine>American</Cuisine>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory />\r\n      <StarRating>4.25</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/pineapple-cupcakes/5464</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/pineapple-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/pineapple-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>8</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>700</MaxImageSquare>\r\n      <TotalTries>401</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/pineapple-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>281415</RecipeID>\r\n
+        \     <Title>Lasagna Cupcakes</Title>\r\n      <Cuisine />\r\n      <Category>Appetizers</Category>\r\n
+        \     <Subcategory>Appetizers - Other</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/lasagna-cupcakes/281415</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/lasagna-cupcakes-3.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/lasagna-cupcakes-3.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1543070</UserID>\r\n
+        \       <UserName>shelleyjames</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/shelleyjames.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>6</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-05-17T15:48:44.44Z</CreationDate>\r\n
+        \     <MaxImageSquare>640</MaxImageSquare>\r\n      <TotalTries>79</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/lasagna-cupcakes-3.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>196977</RecipeID>\r\n
+        \     <Title>Homemade Cupcakes</Title>\r\n      <Cuisine>srilanka</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>5</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/homemade-cupcakes/196977</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/homemade-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/homemade-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>1</ReviewCount>\r\n      <Poster>\r\n        <UserID>983815</UserID>\r\n
+        \       <UserName>stelladias77</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/stelladias77.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2011-04-24T03:06:13.823Z</CreationDate>\r\n
+        \     <MaxImageSquare>320</MaxImageSquare>\r\n      <TotalTries>76</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/homemade-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>184042</RecipeID>\r\n
+        \     <Title>Coconut Cupcakes</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>5</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/coconut-cupcakes/184042</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/coconut-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/coconut-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>3</ReviewCount>\r\n      <Poster>\r\n        <UserID>926241</UserID>\r\n
+        \       <UserName>bbeans99</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>24</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2010-07-27T19:30:49.373Z</CreationDate>\r\n
+        \     <MaxImageSquare>700</MaxImageSquare>\r\n      <TotalTries>46</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/coconut-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>20072</RecipeID>\r\n
+        \     <Title>Vanilla Cupcakes</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>1</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/vanilla-cupcakes/20072</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/vanilla-cupcakes-2.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/vanilla-cupcakes-2.jpg</ImageURL120>\r\n
+        \     <ReviewCount>1</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>480</MaxImageSquare>\r\n      <TotalTries>48</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/vanilla-cupcakes-2.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>197688</RecipeID>\r\n
+        \     <Title>Champagne Cupcakes</Title>\r\n      <Cuisine>French</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>4.5</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/champagne-cupcakes/197688</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/champagne-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/champagne-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>4</ReviewCount>\r\n      <Poster>\r\n        <UserID>1160582</UserID>\r\n
+        \       <UserName>CayleeGrey</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/cayleegrey.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>24</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2011-05-09T07:57:04Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>356</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/champagne-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>190891</RecipeID>\r\n
+        \     <Title>Banana Cupcakes</Title>\r\n      <Cuisine>American </Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>5</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/banana-cupcakes/190891</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/banana-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/banana-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>1</ReviewCount>\r\n      <Poster>\r\n        <UserID>844758</UserID>\r\n
+        \       <UserName>punknpie</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/050510101443844758.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>18</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2011-01-21T06:06:57.217Z</CreationDate>\r\n
+        \     <MaxImageSquare>1280</MaxImageSquare>\r\n      <TotalTries>150</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/banana-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>200545</RecipeID>\r\n
+        \     <Title>Oreo Cupcakes</Title>\r\n      <Cuisine>British</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>4.35294117647059</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/oreo-cupcakes/200545</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/oreo-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/oreo-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>18</ReviewCount>\r\n      <Poster>\r\n        <UserID>1160582</UserID>\r\n
+        \       <UserName>CayleeGrey</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/cayleegrey.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>24</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2011-06-21T20:00:41Z</CreationDate>\r\n
+        \     <MaxImageSquare>700</MaxImageSquare>\r\n      <TotalTries>1397</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/oreo-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>241485</RecipeID>\r\n
+        \     <Title>Taco Cupcakes</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Appetizers</Category>\r\n      <Subcategory>Meat</Subcategory>\r\n
+        \     <StarRating>4.64285714285714</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/taco-cupcakes/241485</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/taco-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/taco-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>28</ReviewCount>\r\n      <Poster>\r\n        <UserID>975453</UserID>\r\n
+        \       <UserName>aldrichmh</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/aldrichmh.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>18</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2014-12-22T23:50:44.803Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>2693</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/taco-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>490579</RecipeID>\r\n
+        \     <Title>BREAKFAST CUPCAKES</Title>\r\n      <Category>Breakfast</Category>\r\n
+        \     <Subcategory>Potatoes</Subcategory>\r\n      <StarRating>4.5</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/breakfast-cupcakes/490579</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/breakfast-cupcakes-2.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/breakfast-cupcakes-2.jpg</ImageURL120>\r\n
+        \     <ReviewCount>2</ReviewCount>\r\n      <Poster>\r\n        <UserID>1627257</UserID>\r\n
+        \       <UserName>CSmith508</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/csmith508.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-04-13T04:43:57Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>354</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/breakfast-cupcakes-2.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>305838</RecipeID>\r\n
+        \     <Title>Egg Cupcakes</Title>\r\n      <Cuisine>Paleo</Cuisine>\r\n      <Category>Breakfast</Category>\r\n
+        \     <Subcategory>Egg Dishes</Subcategory>\r\n      <StarRating>2</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/egg-cupcakes/305838</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/egg-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/egg-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1600831</UserID>\r\n
+        \       <UserName>theshackfam</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>18</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-07-09T05:50:12Z</CreationDate>\r\n
+        \     <MaxImageSquare>512</MaxImageSquare>\r\n      <TotalTries>7</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/egg-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>492372</RecipeID>\r\n
+        \     <Title>Breakfast cupcakes</Title>\r\n      <Category>Breakfast</Category>\r\n
+        \     <Subcategory>Egg Dishes</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/breakfast-cupcakes/492372</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/rs/256/breakfast-cupcakes-3.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://images.bigoven.com/image/upload/breakfast-cupcakes-3.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1979079</UserID>\r\n
+        \       <UserName>dkjedmondson</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-04-15T01:50:29Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>6</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/breakfast-cupcakes-3.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>475272</RecipeID>\r\n
+        \     <Title>Bunny Cupcake</Title>\r\n      <Cuisine>dessert</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>0</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/bunny-cupcake/475272</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/bunny-cupcake.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/bunny-cupcake.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>552318</UserID>\r\n
+        \       <UserName>ohsweetday</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/ohsweetday.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-03-19T22:47:44.293Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>1</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/bunny-cupcake.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>464221</RecipeID>\r\n
+        \     <Title>Cookie Cupcakes</Title>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory />\r\n      <StarRating>0</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/cookie-cupcakes/464221</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/untitled-recipe-6991.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/untitled-recipe-6991.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1042004</UserID>\r\n
+        \       <UserName>rotts4me</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/rotts4me.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark>true</IsBookmark>\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-03-04T22:54:58.757Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>12</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/untitled-recipe-6991.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>382961</RecipeID>\r\n
+        \     <Title>Turkey Cupcakes</Title>\r\n      <Category />\r\n      <Subcategory
+        />\r\n      <StarRating>0</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/turkey-cupcakes/382961</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/turkey-cupcakes-2.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/turkey-cupcakes-2.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1042004</UserID>\r\n
+        \       <UserName>rotts4me</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/rotts4me.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark>true</IsBookmark>\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-11-26T14:40:10.15Z</CreationDate>\r\n
+        \     <MaxImageSquare>320</MaxImageSquare>\r\n      <TotalTries>4</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/turkey-cupcakes-2.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>808647</RecipeID>\r\n
+        \     <Title>Egg Cupcake</Title>\r\n      <Cuisine />\r\n      <Category>Breakfast</Category>\r\n
+        \     <Subcategory>Egg Dishes</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/egg-cupcake/808647</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/egg-cupcake-2.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/egg-cupcake-2.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>2399592</UserID>\r\n
+        \       <UserName>ashleylee12</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2014-02-22T12:30:26.413Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://images.bigoven.com/image/upload/egg-cupcake-2.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>776184</RecipeID>\r\n
+        \     <Title>Lemon cupcakes</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Desserts - Other</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/lemon-cupcakes/776184</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/lemon-cupcakes-7.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/lemon-cupcakes-7.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>2271128</UserID>\r\n
+        \       <UserName>jenko1982</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2014-01-23T14:55:32.49Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>1</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/lemon-cupcakes-7.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>839674</RecipeID>\r\n
+        \     <Title>Vegetable Cupcake</Title>\r\n      <Cuisine />\r\n      <Category>Breakfast</Category>\r\n
+        \     <Subcategory>Baked Goods</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/vegetable-cupcake/839674</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/vegetable-cupcake.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/vegetable-cupcake.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>182029</UserID>\r\n
+        \       <UserName>Evolya</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2014-04-04T09:54:19.963Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>1</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/vegetable-cupcake.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>1121772</RecipeID>\r\n
+        \     <Title>Tiramisu Cupcakes</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Tiramisu</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/tiramisu-cupcakes/1121772</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/tiramisu-cupcakes-6.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/tiramisu-cupcakes-6.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>552318</UserID>\r\n
+        \       <UserName>ohsweetday</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/ohsweetday.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2015-02-17T01:37:34.607Z</CreationDate>\r\n
+        \     <MaxImageSquare>512</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://redirect.bigoven.com/pics/tiramisu-cupcakes-6.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>177335</RecipeID>\r\n
+        \     <Title>Vanilla Cupcakes</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>4.5</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/vanilla-cupcakes/177335</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/vanilla-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/vanilla-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>18</ReviewCount>\r\n      <Poster>\r\n        <UserID>677974</UserID>\r\n
+        \       <UserName>CUPCAKE-CHEF</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/cupcake-chef.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>24</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2009-12-25T02:48:00.807Z</CreationDate>\r\n
+        \     <MaxImageSquare>640</MaxImageSquare>\r\n      <TotalTries>710</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/vanilla-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>197692</RecipeID>\r\n
+        \     <Title>Cosmopolitan Cupcakes</Title>\r\n      <Cuisine>French</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>3.4</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/cosmopolitan-cupcakes/197692</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/cosmopolitan-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/cosmopolitan-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>5</ReviewCount>\r\n      <Poster>\r\n        <UserID>1160582</UserID>\r\n
+        \       <UserName>CayleeGrey</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/cayleegrey.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2011-05-09T08:26:54Z</CreationDate>\r\n
+        \     <MaxImageSquare>1024</MaxImageSquare>\r\n      <TotalTries>151</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/cosmopolitan-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>281407</RecipeID>\r\n
+        \     <Title>Taco Cupcakes</Title>\r\n      <Cuisine />\r\n      <Category>Appetizers</Category>\r\n
+        \     <Subcategory>Appetizers - Other</Subcategory>\r\n      <StarRating>4.5</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/taco-cupcakes/281407</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/taco-cupcakes-3.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/taco-cupcakes-3.jpg</ImageURL120>\r\n
+        \     <ReviewCount>6</ReviewCount>\r\n      <Poster>\r\n        <UserID>1543070</UserID>\r\n
+        \       <UserName>shelleyjames</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/shelleyjames.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>18</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-05-17T15:08:09.637Z</CreationDate>\r\n
+        \     <MaxImageSquare>640</MaxImageSquare>\r\n      <TotalTries>1218</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/taco-cupcakes-3.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>248257</RecipeID>\r\n
+        \     <Title>Chocolate Cupcakes</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>4.75</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/chocolate-cupcakes/248257</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/chocolate-cupcakes-2.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/chocolate-cupcakes-2.jpg</ImageURL120>\r\n
+        \     <ReviewCount>4</ReviewCount>\r\n      <Poster>\r\n        <UserID>1450226</UserID>\r\n
+        \       <UserName>tinacoleman</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/tinacoleman.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>24</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-02-24T17:50:22.427Z</CreationDate>\r\n
+        \     <MaxImageSquare>1280</MaxImageSquare>\r\n      <TotalTries>69</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/chocolate-cupcakes-2.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>188742</RecipeID>\r\n
+        \     <Title>Pumpkin Cupcakes</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>4.85714285714286</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/pumpkin-cupcakes/188742</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/pumpkin-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/pumpkin-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>14</ReviewCount>\r\n      <Poster>\r\n        <UserID>580076</UserID>\r\n
+        \       <UserName>MamaJoRen</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>24</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2010-12-18T05:02:06.557Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>766</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/pumpkin-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>178049</RecipeID>\r\n
+        \     <Title>Tiramisu Cupcakes</Title>\r\n      <Cuisine>american</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Tiramisu</Subcategory>\r\n
+        \     <StarRating>4</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/tiramisu-cupcakes/178049</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/tiramisu-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/tiramisu-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>3</ReviewCount>\r\n      <Poster>\r\n        <UserID>677974</UserID>\r\n
+        \       <UserName>CUPCAKE-CHEF</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/cupcake-chef.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>18</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2010-01-15T23:05:34.213Z</CreationDate>\r\n
+        \     <MaxImageSquare>320</MaxImageSquare>\r\n      <TotalTries>263</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/tiramisu-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>200809</RecipeID>\r\n
+        \     <Title>Rainbow Cupcakes</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>3.57142857142857</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/rainbow-cupcakes/200809</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/rainbow-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/rainbow-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>7</ReviewCount>\r\n      <Poster>\r\n        <UserID>997322</UserID>\r\n
+        \       <UserName>EmptyLighter</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/emptylighter.jpg</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>24</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2011-06-25T14:17:32Z</CreationDate>\r\n
+        \     <MaxImageSquare>512</MaxImageSquare>\r\n      <TotalTries>250</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/rainbow-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>490330</RecipeID>\r\n
+        \     <Title>Breakfast Cupcakes</Title>\r\n      <Category>Breakfast</Category>\r\n
+        \     <Subcategory>Egg Dishes</Subcategory>\r\n      <StarRating>4</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/breakfast-cupcakes/490330</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/breakfast-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/breakfast-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>1</ReviewCount>\r\n      <Poster>\r\n        <UserID>1962095</UserID>\r\n
+        \       <UserName>sprytini</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-04-12T17:25:36Z</CreationDate>\r\n
+        \     <MaxImageSquare>320</MaxImageSquare>\r\n      <TotalTries>105</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/breakfast-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>241196</RecipeID>\r\n
+        \     <Title>Margarita Cupcakes</Title>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cakes</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/margarita-cupcakes/241196</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/margarita-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/margarita-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>89757</UserID>\r\n
+        \       <UserName>toast</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/toast.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>36</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-01-31T22:09:26Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>70</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/margarita-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>227225</RecipeID>\r\n
+        \     <Title>Coconut Cupcakes</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>0</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/coconut-cupcakes/227225</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/coconut-cupcakes-2.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/coconut-cupcakes-2.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1376200</UserID>\r\n
+        \       <UserName>foxymolly</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>24</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2011-12-20T02:03:35.84Z</CreationDate>\r\n
+        \     <MaxImageSquare>512</MaxImageSquare>\r\n      <TotalTries>10</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/coconut-cupcakes-2.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>65867</RecipeID>\r\n
+        \     <Title>Spring Cupcakes</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>5</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/spring-cupcakes/65867</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/spring-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/spring-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>1</ReviewCount>\r\n      <Poster>\r\n        <UserID>0</UserID>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>1</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2004-01-01T06:00:00Z</CreationDate>\r\n
+        \     <MaxImageSquare>640</MaxImageSquare>\r\n      <TotalTries>24</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/spring-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>311458</RecipeID>\r\n
+        \     <Title>Zinger Cupcakes</Title>\r\n      <Cuisine>American</Cuisine>\r\n
+        \     <Category>Desserts</Category>\r\n      <Subcategory>Cakes</Subcategory>\r\n
+        \     <StarRating>5</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/zinger-cupcakes/311458</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/zinger-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/zinger-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>1</ReviewCount>\r\n      <Poster>\r\n        <UserID>1592195</UserID>\r\n
+        \       <UserName>jackibelfonte</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/jackibelfonte.jpg</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>24</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-07-22T14:09:36.91Z</CreationDate>\r\n
+        \     <MaxImageSquare>320</MaxImageSquare>\r\n      <TotalTries>23</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/zinger-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>617808</RecipeID>\r\n
+        \     <Title>Wicked Cupcakes</Title>\r\n      <Cuisine />\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cakes</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/wicked-cupcakes/617808</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/wicked-cupcakes.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/wicked-cupcakes.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>523835</UserID>\r\n
+        \       <UserName>Tylese420</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-08-27T19:01:28.7Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>1</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/wicked-cupcakes.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>451192</RecipeID>\r\n
+        \     <Title>Beetroot Cupcakes</Title>\r\n      <Category>Desserts</Category>\r\n
+        \     <Subcategory>Cakes</Subcategory>\r\n      <StarRating>0</StarRating>\r\n
+        \     <WebURL>http://www.bigoven.com/recipe/beetroot-cupcakes/451192</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/beetroot-cupcakes-3.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/beetroot-cupcakes-3.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>1877779</UserID>\r\n
+        \       <UserName>gorsebushpixie</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark xsi:nil=\"true\" />\r\n      <YieldNumber>12</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2013-02-16T13:20:02Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>2</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/beetroot-cupcakes-3.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>365196</RecipeID>\r\n
+        \     <Title>Pumpkin Cupcakes</Title>\r\n      <Category />\r\n      <Subcategory
+        />\r\n      <StarRating>5</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/pumpkin-cupcakes/365196</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/pumpkin-cupcakes-6.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/pumpkin-cupcakes-6.jpg</ImageURL120>\r\n
+        \     <ReviewCount>1</ReviewCount>\r\n      <Poster>\r\n        <UserID>1717447</UserID>\r\n
+        \       <UserName>rebecca_sr</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>false</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark>true</IsBookmark>\r\n      <YieldNumber>24</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2012-11-02T20:35:54Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries>8</TotalTries>\r\n
+        \     <HeroPhotoUrl>http://images.bigoven.com/image/upload/pumpkin-cupcakes-6.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n    <RecipeInfo>\r\n      <RecipeID>1066560</RecipeID>\r\n
+        \     <Title>Yellow Cupcakes</Title>\r\n      <Category />\r\n      <Subcategory
+        />\r\n      <StarRating>0</StarRating>\r\n      <WebURL>http://www.bigoven.com/recipe/yellow-cupcakes/1066560</WebURL>\r\n
+        \     <ImageURL>http://redirect.bigoven.com/pics/yellow-cupcakes-better-than-the-box-2.jpg</ImageURL>\r\n
+        \     <ImageURL120>http://redirect.bigoven.com/pics/rs/120/yellow-cupcakes-better-than-the-box-2.jpg</ImageURL120>\r\n
+        \     <ReviewCount>0</ReviewCount>\r\n      <Poster>\r\n        <UserID>2723974</UserID>\r\n
+        \       <UserName>upslogger19</UserName>\r\n        <ImageURL48>http://images.bigoven.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png</ImageURL48>\r\n
+        \       <IsPremium>true</IsPremium>\r\n        <IsKitchenHelper>false</IsKitchenHelper>\r\n
+        \       <PremiumExpiryDate xsi:nil=\"true\" />\r\n        <MemberSince xsi:nil=\"true\"
+        />\r\n        <IsUsingRecurly>false</IsUsingRecurly>\r\n      </Poster>\r\n
+        \     <IsPrivate>false</IsPrivate>\r\n      <HideFromPublicSearch>false</HideFromPublicSearch>\r\n
+        \     <IsBookmark>true</IsBookmark>\r\n      <YieldNumber>20</YieldNumber>\r\n
+        \     <QualityScore>0</QualityScore>\r\n      <CreationDate>2015-01-13T21:13:14Z</CreationDate>\r\n
+        \     <MaxImageSquare>256</MaxImageSquare>\r\n      <TotalTries xsi:nil=\"true\"
+        />\r\n      <HeroPhotoUrl>http://images.bigoven.com/image/upload/yellow-cupcakes-better-than-the-box-2.jpg</HeroPhotoUrl>\r\n
+        \   </RecipeInfo>\r\n  </Results>\r\n</RecipeSearchResult>"
+    http_version: 
+  recorded_at: Fri, 13 Mar 2015 02:47:07 GMT
+recorded_with: VCR 2.9.3
