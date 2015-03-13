@@ -68,5 +68,15 @@ RSpec.describe Fetcher, :type => :model do
 				end
 			end
 		end
+
+		context "get ingredients from recipe id" do
+			VCR.use_cassette("search_response") do
+				response = Fetcher.new.search_response("muffins")
+
+				it "returns a response from a keyword" do
+					expect(response.count).to eq(40)
+				end
+			end
+		end
 	end
 end
