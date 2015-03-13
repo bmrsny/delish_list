@@ -19,6 +19,7 @@ feature "User can add ingredients to old shopping list" do
 
 	scenario "User can add ingredients to a old shopping list" do
 		visit recipe_path(@recipe)
+		save_and_open_page
 		expect(page).to have_content(@ingredient.name)
 		click_link_or_button "Add Ingredients to Shopping List"
 		within(".shopping-list-modal") do
