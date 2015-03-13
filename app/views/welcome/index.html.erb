@@ -1,7 +1,7 @@
 <div class="parallax-home">
 	<div class="container">
 		<div class="inner-parallax-content">
-			<h1 class="front-header">Delicious Recipies at Your Fingertips</h1>
+			<h1 class="front-header">Delicious Recipes at Your Fingertips</h1>
         <div class="search-bar-box">
 					<%= form_tag(recipes_path, :method => "get", id: "search-form") do %>
           <%= text_field_tag :search, params[:search], placeholder: "Search Recipes", required: true, class: "form-control search-box" %>
