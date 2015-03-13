@@ -30,6 +30,17 @@ RSpec.describe Recipe, :type => :model do
 			end
 		end
 
+	context "invalid search" do
+			VCR.use_cassette("invalid_recipe_search") do
+				invalid_search = Recipe.single_recipe("Goonies")
+
+				it "returns fals for invalid search criteria" do
+					expect(invalid_search).to be_instance_of(OpenStruct) 
+				end
+			end
+		end
+
+
 		context "returns a list of ingredients from recipe id" do
 			VCR.use_cassette("ingredients_list") do
 				list = Recipe.ingredients_list("100")
