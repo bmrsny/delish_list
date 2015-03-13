@@ -32,10 +32,10 @@ RSpec.describe Recipe, :type => :model do
 
 	context "invalid search" do
 			VCR.use_cassette("invalid_recipe_search") do
-				invalid_search = Recipe.single_recipe("Goonies")
+				invalid_search = Recipe.search("Goonies")
 
 				it "returns fals for invalid search criteria" do
-					expect(invalid_search).to be_instance_of(OpenStruct) 
+					expect(invalid_search).to eq(false) 
 				end
 			end
 		end
