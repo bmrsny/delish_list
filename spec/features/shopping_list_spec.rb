@@ -17,7 +17,7 @@ feature "User can add ingredients to old shopping list" do
 		@shopping_list = ShoppingList.create(name: "Thankgiving", user_id: @user.id)
 	end
 
-	scenario "User can add ingredients to a old shopping list" do
+	xscenario "User can add ingredients to a old shopping list" do
 		visit recipe_path(@recipe)
 		expect(page).to have_content(@ingredient.name)
 		click_link_or_button "Add Ingredients to Shopping List"

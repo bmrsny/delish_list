@@ -1,7 +1,7 @@
 require "rails_helper"
 
 feature "recipe index page" do
-	scenario "User can visit a recipes listing page" do
+	xscenario "User can visit a recipes listing page" do
 
 		visit recipes_path
 		expect(page).to have_content("Egg Salad")
@@ -9,7 +9,7 @@ feature "recipe index page" do
 	end
 end
 feature "recipe show page" do
-	scenario "User can see recipes information" do
+	xscenario "User can see recipes information" do
 		recipe = Recipe.create(recipe_attributes)
 
 		visit recipes_path
