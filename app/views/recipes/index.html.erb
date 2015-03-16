@@ -9,7 +9,7 @@
 				</div>
 				<div class="recipes-box-title">
 						<h4><%= recipe.Title %></h4>
-					<%= link_to "View Ingredients", recipe_path(recipe.RecipeID), class:"btn btn-default ingredient-btn" %>
+					<%= link_to "View Ingredients", recipe_path(recipe.RecipeID), class:"btn btn-default ingredient-btn", data: {disable_with: '<i class="fa fa-spinner"></i> Getting More Info..' } %>
 				</div>
 			</div>
 		<% end %>

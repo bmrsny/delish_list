@@ -25,7 +25,7 @@
 
 			<%= f.text_field :phone_number, placeholder: "Enter a phone number", required: true %>
 
-			<%= f.submit "Send Ingredient as a text" %>
+			<%= f.button "Send Ingredient as a text", data: {disable_with: '<i class="fa fa-spinner"></i> Sending SMS...'} %>
 		<% end %>
 		<h3>Add a link for more info</h3>
 	</div>

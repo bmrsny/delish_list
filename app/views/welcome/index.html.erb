@@ -6,7 +6,7 @@
 					<%= form_tag(recipes_path, :method => "get", id: "search-form") do %>
           <%= text_field_tag :search, params[:search], placeholder: "Search Recipes", required: true, class: "form-control search-box" %>
 					<div class="search-button-box">
-         		<%= submit_tag "Search", :name => nil, class: "btn btn-default search-btn" %>
+						<%= button_tag "Search", :name => nil, class: "btn btn-default search-btn", data: {disable_with: '<i class="fa fa-spinner"></i> Searching Recipes ...'} %>
 					</div>
         		<% end %>
 				</div>
