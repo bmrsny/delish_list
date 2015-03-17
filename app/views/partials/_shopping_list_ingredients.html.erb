@@ -3,5 +3,5 @@
 	
 	<%= f.hidden_field :recipe_id, value: @recipe.RecipeID  %>
 
-	<%= f.submit "Add Ingredients", class: "btn btn-default search-btn" %>
+	<%= f.button "Add Ingredients", class: "btn btn-default search-btn", data: {disable_with: '<i class="fa fa-spinner"></i> Adding Ingredients Info..' }   %>
 <% end %>
