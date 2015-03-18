@@ -23,7 +23,7 @@
 		<%= form_for (@shopping_list), url: text_me_path(@shopping_list.id), method: :post do |f| %>
 			<%= f.hidden_field :text, value: @shopping_list.id  %>
 
-			<%= f.text_field :phone_number, placeholder: "Enter a phone number", required: true %>
+			<%= f.number_field :phone_number, placeholder: "Enter a phone number", required: true %>
 
 			<%= f.button "Send Ingredient as a text", data: {disable_with: '<i class="fa fa-spinner"></i> Sending SMS...'} %>
 		<% end %>
