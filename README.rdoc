@@ -10,17 +10,17 @@ ingredients by type, unit, and unit size.
 Things you may want to cover:
 
 * Ruby version
-	Ruby 2.1.3
+		<tt>Ruby 2.1.3</tt>.
 
 * Rails version
-	4.2.0
+		<tt>4.2.0</tt>.
 
 * How to run the test suite
-		$ rspec
+		<tt>$ rspec</tt>.
 
 * Deployment instructions
 
-	$ git clone this repo
+	<tt>$ git clone this repo</tt>
 
 Install any missing gems: "bundle"
 
